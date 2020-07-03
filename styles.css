@@ -1,0 +1,207 @@
+body {
+    background-color: #F5F7F9;
+}
+.hdr {
+    color: black;
+}
+a {
+    color: black;
+}
+.main {
+    font-size: 40px;
+    color: #26fc42;
+}
+.widget {
+  padding: 0px 0px;
+  background: #F5F7F9;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.widget-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 24px;
+  font-family: 'Caveat', cursive;
+}
+.widget-list {
+  padding: 0;
+  list-style: none;
+}
+.widget-list a:before {
+  content: "\2014";
+  margin-right: 14px;
+}
+.widget-list a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 6px 0; 
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #444;
+  transition: .3s linear;
+}
+.widget-list a:hover {color: #b99d61;}
+.text{
+	margin-left: 130px;
+}
+pre {
+	background-color: #2b2b2b;
+	padding: 5px;
+	border-radius: 2px;
+	color: white;
+	/*text-align: center;*/
+	
+}
+
+
+/*Меню*/
+.rtpz {
+                font-size: 26px; /* Размер текста заголовка бокового меню */
+                font-family: 'Caveat', cursive;
+                border-left: 2px solid #b99d61;
+            }
+.rtp {
+                font-size: 20px; /* Размер текста пунктов бокового меню */
+                font-family: 'Caveat', cursive;
+            }
+/*Полоса*/
+.linr {
+              size: 0.8;
+              color: "#1b2cc2";
+              margin-top: 0.5em;
+              margin-bottom: 0.5em;
+            }
+/*Вставка фото 50*50*/
+.clph {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+	height: 500px;
+	margin-top: 1em; /* Отступ сверху перед фото*/
+}
+
+
+/*div для таблицы*/
+            .tbsa {
+                text-align: center;
+                margin: auto;
+                font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+                border-collapse: collapse;
+                border: 4px solid;
+                background: #384566;
+                font-size: 16px;
+                width: 95%;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .tbsa th, .tbsa td {
+               border-bottom: 1px solid #37B5A5;
+            }
+            .tbsa th {
+                color: #EDB749;
+                padding: 12px 17px;
+            }
+            .tbsa td {
+                color: #f5f7f7;
+                border-right: 1px solid #37B5A5;
+                padding: 7px 17px;
+            }
+            .tbsa tr:last-child td {
+                border-bottom: none;
+            }
+            .tbsa td:last-child {
+                border-right: none;
+            }
+
+/*Низ сайта*/
+.niz {
+  background-color: #8e9194;
+}
+.niz p {
+  text-align: center;
+  font-family: 'Balsamiq Sans';
+  font-size: 16px;
+}
+
+/*Ссылки*/
+.aaa a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+            .wrap { /*Серая рамка с текстом*/
+                width: 100%; /* Ширина */
+            }
+            .wrap div {
+                background: #c2c2c2;
+                margin: 35px;
+                padding: 0px;
+                border: 5px solid;
+                border-radius: 15px;
+            }
+
+/*Зеленая рамка*/
+.wrapz { 
+  width: 95%; /* Ширина */
+  margin: auto;
+}
+.wrapz div {
+  background: #e4f5e7;
+  padding: 0px;
+  border: 2px solid #59805f;
+  border-radius: 10px;
+}
+.wrapz a { 
+  color: #0d2110;
+  font-size: 16px;
+  font-family: 'Balsamiq Sans';
+}
+.wrapz p {
+  font-size: 16px;
+  text-align: left;
+  margin: 25px;
+  color: #2f5235;
+  line-height: 0.5px;
+}
+.wrapz b {
+  font-size: 18px;
+  text-align: left;
+  margin: 0px;
+  color: #2f5235;
+}
+
+/*Красная рамка*/
+.wrapk { 
+  width: 95%; /* Ширина */
+  margin: auto;
+}
+.wrapk div {
+  background: #f5e4e4;
+  padding: 0px;
+  border: 2px solid #805959;
+  border-radius: 10px;
+}
+.wrapk a { 
+  color: #210d0d;
+  font-size: 16px;
+  font-family: 'Balsamiq Sans';
+}
+.wrapk p {
+  font-size: 16px;
+  text-align: left;
+  margin: 25px;
+  color: #522f2f;
+  line-height: 0.5px;
+}
+.wrapk b {
+  font-size: 18px;
+  text-align: left;
+  margin: 0px;
+  color: #522f2f;
+}
