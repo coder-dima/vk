@@ -7,6 +7,19 @@ body {
 a {
     color: black;
 }
+.hdr {
+  text-align: center;
+  font-size: 0.3in;
+  font-family: 'Caveat', cursive;
+}
+.hdr1 {
+  text-align: center;
+  background-color: #4c75a3;
+  color: white;
+  height: 0.45in;
+  display: flex;
+  align-items: center;
+                }
 .main {
     font-size: 40px;
     color: #26fc42;
@@ -148,7 +161,7 @@ pre {
 
 /*Рамки*/
 .ramka { 
-  width: 13.3in; /* Ширина */
+  width: 95%; /* Ширина */
   margin: auto;
   padding: 0in;
   border-radius: 0.10in;
