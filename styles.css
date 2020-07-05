@@ -19,9 +19,9 @@ a {
   height: 0.45in;
   display: flex;
   align-items: center;
-                }
+}
 .main {
-    font-size: 40px;
+    font-size: 35px;
     color: #26fc42;
 }
 .widget {
