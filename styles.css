@@ -146,62 +146,54 @@ pre {
                 border-radius: 15px;
             }
 
-/*Зеленая рамка*/
-.wrapz { 
-  width: 95%; /* Ширина */
+/*Рамки*/
+.ramka { 
+  width: 13.3in; /* Ширина */
   margin: auto;
+  padding: 0in;
+  border-radius: 0.10in;
 }
-.wrapz div {
-  background: #e4f5e7;
-  padding: 0px;
-  border: 2px solid #59805f;
-  border-radius: 10px;
-}
-.wrapz a { 
-  color: #0d2110;
-  font-size: 16px;
+.ramka a { 
+  font-size: 0.16in;
   font-family: 'Balsamiq Sans';
 }
-.wrapz p {
-  font-size: 16px;
+.ramka p {
+  font-size: 0.16in;
+  line-height: 0.2in;
   text-align: left;
-  margin: 25px;
-  color: #2f5235;
-  line-height: 0.5px;
+  margin: 0.25in;
 }
-.wrapz b {
+.ramka b {
   font-size: 18px;
   text-align: left;
-  margin: 0px;
-  color: #2f5235;
+  margin: 0in;
 }
 
-/*Красная рамка*/
-.wrapk { 
-  width: 95%; /* Ширина */
-  margin: auto;
+/*Рамка - зеленая*/
+.zel { 
+  background: #e4f5e7;
+  border: 0.020in solid #59805f;
 }
-.wrapk div {
+.zel a { 
+  color: #0d2110;
+}
+.zel p {
+  color: #2f5235;
+}
+.zel b {
+  color: #2f5235;
+}
+/*Рамка - красная*/
+.krasn { 
   background: #f5e4e4;
-  padding: 0px;
-  border: 2px solid #805959;
-  border-radius: 10px;
+  border: 0.020in solid #805959;
 }
-.wrapk a { 
+.krasn a { 
   color: #210d0d;
-  font-size: 16px;
-  font-family: 'Balsamiq Sans';
 }
-.wrapk p {
-  font-size: 16px;
-  text-align: left;
-  margin: 25px;
+.krasn p {
   color: #522f2f;
-  line-height: 0.5px;
 }
-.wrapk b {
-  font-size: 18px;
-  text-align: left;
-  margin: 0px;
+.krasn b {
   color: #522f2f;
 }
