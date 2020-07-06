@@ -122,6 +122,9 @@ pre {
                 border-right: 1px solid #37B5A5;
                 padding: 7px 17px;
             }
+            .tbsa td:first-child {
+              width: 15%;
+            }
             .tbsa tr:last-child td {
                 border-bottom: none;
             }
