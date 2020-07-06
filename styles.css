@@ -92,8 +92,16 @@ pre {
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-	height: 500px;
-	margin-top: 1em; /* Отступ сверху перед фото*/
+  height: 500px;
+  margin-top: 1em; /* Отступ сверху перед фото*/
+}
+
+/*Вставка фото 50*50*/
+.phot {
+  width: 12%;
+  height: 12%;
+  float: left;
+  margin: 10px 10px 10px 10px;
 }
 
 
@@ -170,7 +178,7 @@ pre {
   border-radius: 0.10in;
 }
 .ramka a { 
-  font-size: 0.16in;
+  font-size: 0.18in;
   font-family: 'Balsamiq Sans';
 }
 .ramka p {
@@ -183,6 +191,7 @@ pre {
   font-size: 18px;
   text-align: left;
   margin: 0in;
+  line-height: 0.2in;
 }
 
 /*Рамка - зеленая*/
@@ -212,4 +221,18 @@ pre {
 }
 .krasn b {
   color: #522f2f;
+}
+/*Рамка - голубая*/
+.gol { 
+  background: #e4f5f5;
+  border: 0.020in solid #598080;
+}
+.gol a { 
+  color: #0d2120;
+}
+.gol p {
+  color: #2f5252;
+}
+.gol b {
+  color: #2f5252;
 }
