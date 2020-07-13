@@ -149,6 +149,10 @@ pre {
   font-family: 'Balsamiq Sans';
   font-size: 16px;
 }
+.niz a {
+  font-family: 'Balsamiq Sans';
+  font-size: 16px;
+}
 
 /*Ссылки*/
 .aaa a {
@@ -235,4 +239,19 @@ pre {
 }
 .gol b {
   color: #2f5252;
+}
+
+/*Специальная рамка - */
+.sp { 
+  background: #ede4f5;
+  border: 0.020in solid #6f5980;
+}
+.sp a { 
+  color: #170d21;
+}
+.sp p {
+  color: #3e2f52;
+}
+.sp b {
+  color: #3e2f52;
 }
