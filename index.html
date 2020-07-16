@@ -32,6 +32,34 @@
                 text-align: center;
                 font-family: 'Balsamiq Sans', cursive;
             }
+            /* Картинки в карточке */
+.cards {
+    margin: 0px 0px 45px 0px;
+}
+.cards__row{
+    margin: 0px -15px -45px -15px;
+    display: flex;
+    justify-content: center;
+}
+.cards__column {
+    flex: 0 1 33.333%;
+    padding: 0px 15px;
+}
+.cards__image {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 58% 0px;
+    overflow: hidden;
+    position: relative;
+}
+/* Картинка */
+.cards__image img{
+    width: 5in;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
             
 
             
@@ -43,13 +71,28 @@
     <body class="body">
         <header class="hdr"><a href="index.html">Дима Смирнов</a></header>
         
-        <header class="hdr1"><a href="info.html">Информация</a> | <a href="team.html">Наша команда</a> | <a href="projects.html">Проекты</a></header> 
-        <img src="Dima.jpg" class="cl">
-        <p>Кот Димы Смирнова :)</p>
-        <hr>
+        <header class="hdr1"><a href="info.html">Информация</a> | <a href="team.html">Наша команда</a> | <a href="projects.html">Проекты</a></header> <br><br>
+            
+            <section class="cards"> 
+            	<div class="cards__row">
+                	<div class="cards__column"> 
+                		<div class="cards__image">
+                        	<img src="Dima.jpg" alt="">
+                    	</div> 
+                    </div>
+
+                    <div class="cards__column"> 
+                    	<div class="cards__image">
+                        	<img src="ava-dima.jpg" alt="">
+                    	</div>
+                    </div>
+            	<div> 
+            </section>
+
+                    <br><hr>
         <p>Всю информацию обо мне и моих проектах вы можете найти на этом сайте используя удобную панель.</p>
 
-            <br>
+            <br><br><br>
         <div class="niz"><br><p>&copy; Великий Сверхкодер - Дима Смирнов 2020<br>&copy; <a href="terms.html">Пользовательское соглашение</a></p><br></div>
     </body>
 </html>
