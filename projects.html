@@ -8,69 +8,46 @@
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
         <style>
-            .cl {
-                display: block;
-                margin-left: auto;
-                margin-right: auto
-            }
-            .mn {
-				line-height: 15px;
-				}
-            .body {
-                margin: 0px;
-                margin: 0px;
-                padding: 0px;
-
-            }
-            a { 
-                    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-                font-family: 'Caveat', cursive;
-                font-size: 30px;
-                margin-left: auto;
-                margin-right: auto;   
-            }
-            P { 
-                text-align: center;
-                font-family: 'Balsamiq Sans', cursive;
-            }
-            .btn {
-                display: inline-block; /* Строчно-блочный элемент */
-                background: #8C959D; /* Серый цвет фона */
-                color: #fff; /* Белый цвет текста */
-                padding: 1rem 1.5rem; /* Поля вокруг текста */
-                text-decoration: none; /* Убираем подчёркивание */
-                border-radius: 3px; /* Скругляем уголки */
-                width: 262px;
-                height: 50px;
-                text-align: center;
-            }
-            .hdr2 {
-                color: white;
-                height: 50px;
-                display: flex;
-                align-items: center;
-            }
             
-            li {
-                text-align: center;
-                font-family: 'Balsamiq Sans', cursive;
-                font-size: 30px;
-            }
-
-            
-         </style>
+        </style>
     </head>
  
     <body class="body" >
-        <header class="hdr"><a href="index.html">Дима Смирнов</a></header>
-        
-        <header class="hdr1"><a href="info.html">Информация</a> | <a href="team.html">Наша команда</a> | <a href="projects.html" class="main">Проекты</a></header> 
-        <hr size="0.8" color="#1b2cc2">
-
-        <header class="hdr1">
-            <a href="autopost.html" class="">Автопост</a> | 
-            <a href="cm.html" class="">Чат Менеджер</a>
+        <header class="ccc">
+            <div class="hdr">
+                <div class="hdr-logo"></div>
+                <div class="hdr-name">
+                    <a class="name" href="index.html">Дима Смирнов</a>
+                </div>
+                <div class="hdr-like">
+                    <a class="favorite" float="right" href="#">
+                        <svg width="24" height="22" fill="var(--color_ikonka)" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.9997 20C-9.1987 8.23285 5.64047 -4.54117 11.9997 3.53633C18.3598 -4.54117 33.1989 8.23285 11.9997 20Z" stroke-width="1.8" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </header>
+        <div class="hdr1">
+            <div class="hdr1-info">
+                <a href="info.html">Информация</a>
+            </div> |
+            <div class="hdr1-team">
+                <a href="team.html">Наша команда</a>
+            </div> |
+            <div class="hdr1-project">
+                <a class="main" href="projects.html">Проекты</a>
+            </div>
+        </div>
+        <br>
+        <div class="hdr1">
+            <div class="hdr1-info">
+                <a href="autopost.html">Автопост</a>
+            </div> |
+            <div class="hdr1-team">
+                <a href="cm.html">Чат Менеджер</a>
+            </div>
+        </div>
         
          	<br><br>
         <div class="ramka zel"><p><b>Информация о Диме Смирнове</b><p>На странице <a href="info.html">"Информация"</a> вы можете увидеть всю личную информацию о Диме с момента появления его в социальной сети ВКонтакте.</p></div> 
@@ -83,5 +60,6 @@
 
             <br><br>
         <div class="niz"><br><p>&copy; Великий Сверхкодер - Дима Смирнов 2020<br>&copy; <a href="terms.html">Пользовательское соглашение</a></p><br></div>
+        <script src="script.js"></script>
     </body>
 </html>

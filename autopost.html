@@ -6,73 +6,65 @@
         <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <style>
-            .body {
-                margin: 0px;
-                margin: 0px;
-                padding: 0px;
-            }
-            a { 
-                text-decoration: none; /* Отменяем подчеркивание у ссылки */
-                font-family: 'Caveat', cursive;
-                font-size: 30px;
-                margin-left: auto;
-                margin-right: auto;         
-            }
-            P { 
-                text-align: center;
-                font-family: 'Balsamiq Sans', cursive;
-            }
-            .btn {
-                display: inline-block; /* Строчно-блочный элемент */
-                background: #8C959D; /* Серый цвет фона */
-                color: #fff; /* Белый цвет текста */
-                padding: 1rem 1.5rem; /* Поля вокруг текста */
-                text-decoration: none; /* Убираем подчёркивание */
-                border-radius: 3px; /* Скругляем уголки */
-                width: 262px;
-                height: 50px;
-                text-align: center;
-            }
-            .hdr2 {
-                color: white;
-                height: 50px;
-                display: flex;
-                align-items: center;
-            }
-            
-            
-         </style>
+
+        </style>
     </head>
  
     <body class="body">
-        <header class="hdr"><a href="index.html">Дима Смирнов</a></header>
-        
-        <header class="hdr1"><a href="info.html">Информация</a> | <a href="team.html">Наша команда</a> | <a href="projects.html" class="main">Проекты</a></header> 
-        <hr size="0.8" color="#1b2cc2">
-                <header class="hdr1">
-            <a href="autopost.html" class="main">Автопост</a> | 
-            <a href="cm.html">Чат Менеджер</a>
+        <header class="ccc">
+            <div class="hdr">
+                <div class="hdr-logo"></div>
+                <div class="hdr-name">
+                    <a class="name" href="index.html">Дима Смирнов</a>
+                </div>
+                <div class="hdr-like">
+                    <a class="favorite" float="right" href="#">
+                        <svg width="24" height="22" fill="var(--color_ikonka)" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.9997 20C-9.1987 8.23285 5.64047 -4.54117 11.9997 3.53633C18.3598 -4.54117 33.1989 8.23285 11.9997 20Z" stroke-width="1.8" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </header>
-        
-        
+        <div class="hdr1">
+            <div class="hdr1-info">
+                <a href="info.html">Информация</a>
+            </div> |
+            <div class="hdr1-team">
+                <a href="team.html">Наша команда</a>
+            </div> |
+            <div class="hdr1-project">
+                <a class="main" href="projects.html">Проекты</a>
+            </div>
+        </div>
+        <br>
+        <div class="hdr1">
+            <div class="hdr1-info">
+                <a class="main" href="autopost.html">Автопост</a>
+            </div> |
+            <div class="hdr1-team">
+                <a href="cm.html">Чат Менеджер</a>
+            </div>
+        </div>  
 
 <div class="content" id="w">
 	        <div class="widget">
 			  <h3 class="widget-title">Содержание</h3>
 			  <ul class="widget-list">
-			    <li><a class="rtp" href="#1">Информация</a></li>
-			    <li><a class="rtp" href="#2">Авторизация</a></li>
-			    <li><a class="rtp" href="#3">Команды</a></li>
-                <li><a class="rtp" href="#4">Тарифы</a></li>
-			    <li><a class="rtp" href="#5">Переменные</a></li>
-                <li><a class="rtp" href="#6">FAQ</a></li>
+			    <li><a href="#1">Информация</a></li>
+			    <li><a href="#2">Авторизация</a></li>
+			    <li><a href="#3">Команды</a></li>
+                <li><a href="#4">Тарифы</a></li>
+			    <li><a href="#5">Переменные</a></li>
+                <li><a href="#6">FAQ</a></li>
 			  </ul>
-			</div> <!-- это меню -->
+			</div>
 
-            <hr width="98%" class="linr">
+            <hr class="ln">
 
             <div id=1> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#1">Информация</a></li> </ul> </div>
-              <div class="mn aaa"><p><a href="https://vk.com/autopost1">Сообщество ВКонтакте - "Автопост"</a><p><hr width="40%" class="linr"><p><a href="https://vk.com/invite/QlVcisz">Подписаться на сообщество не ожидая принятия заявки</a><hr width="95%" class="linr"></p></div>
+              <div class="mn aaa"><p><a href="https://vk.com/autopost1">Сообщество ВКонтакте - "Автопост"</a><p><hr class="ln lin4"><p><a href="https://vk.com/invite/QlVcisz">Подписаться на сообщество не ожидая принятия заявки</a></p></div>
+              <br>
             <table class="tbsa">
                 <tr> <th>Функции</th> </tr>
                 <tr><td>Подключение неограниченного количества страниц</td></tr>
@@ -84,15 +76,15 @@
                 <tr><td>Установка вложений, стикеров для отправки</td></tr>
                 <tr><td>Автоматическое выключение задание через время или указанное количество удачных выполнений</td></tr>
             </table>
-            <hr width="95%" class="linr">
+            <br>
             <div class="ramka krasn"><p><b font-size="18px">Обратите внимание!</b></p><p>Запрещено использовать "Автопост" в целях рассылки спама.<br>Данный проект создан во вспомогательных целях и никак не может наносить вред другим пользователям ВКонтакте.<br>При обнаружении нарушения правил сайта vk.com с использованием бота "Автопост" ваш аккаунт будет заблокирован.</p></div>
-            </div> <hr width="96%" class="linr">
+            </div> <hr class="ln">
             <div id=2> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#2">Авторизация</a></li> </ul> </div>
                 <div class="ramka zel"><p><b>Этап авторизации</b></p><p>Для работы с вашем аккаунтом автопосту нужна специальная ссылка с доступом<br>Получить вы её можете - <a href="https://oauth.vk.com/authorize?client_id=2685278&scope=1073737727&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1" class="a">тут</a>.<br>Нажмите кнопку "Разрешить" и скопруйте ссылку на страницу сайта.<br>Напишите автопосту в <b>ЛС</b> команду "Добавить токен <ссылка>".<br><br>Пожалуйста, не передавайте эту ссылку посторонним лицам!</p></div> 
             </div> 
-            </div> <hr width= "96%" class="linr">
+            </div> <hr class="ln">
             <div id=3> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#3">Команды</a></li> </ul> </div>
-              <div class="wrap"> <div><p>Знаком "/" разделены варианты команд.<p>Аргументы в < > являются обязательными, а в [ ] нет.</p></div> </div>
+              <div class="ramka sp"><p>Знаком "/" разделены варианты команд.<br>Аргументы в < > являются обязательными, а в [ ] нет.</p></div><br>
               <table class="tbsa">
                 <tr>
                   <th>Команда</th><th>Описание</th>
@@ -117,7 +109,7 @@
                 <tr><td>Задание удалить/удалить задание <номер></td><td>Удаляет задание</td></tr>
                 <tr><td>Кнопки</td><td>Показывает внешнюю клавиатуру</td></tr>
               </table>
-            </div> <hr width="96%" class="linr">
+            </div> <hr class="ln">
             <div id=4> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#4">Тарифы</a></li> </ul> </div>
               <table class="tbsa">
                 <tr>
@@ -127,10 +119,10 @@
                 <tr><td>Количество заданий</td><td>5</td><td>20</td><td>45</td></tr>
                 <tr><td>Длина текста в символах</td><td>500</td><td>800</td><td>1500</td></tr>
                 <tr><td>Частота выполнения заданий в секундах</td><td>90</td><td>50</td><td>20</td></tr>
-                <tr><td>Количество использований переменной %или%</td><td>3</td>><td>10</td><td>20</td></tr>
-                <tr><td>Количество страниц журнала действий</td><td>3</td>><td>10</td><td>25</td></tr>
+                <tr><td>Количество использований переменной %или%</td><td>3</td><td>10</td><td>20</td></tr>
+                <tr><td>Количество страниц журнала действий</td><td>3</td><td>10</td><td>25</td></tr>
               </table>
-            </div> <hr width="96%" class="linr">
+            </div> <hr class="ln">
             <div id=5> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#5">Переменные</a></li> </ul> </div>
               <table class="tbsa">
                 <tr>
@@ -150,7 +142,7 @@
                 <tr><td>%цифростатус%</td><td>Изменяет все цифры текста на смайлы</td><td>-</td></tr>
                 <tr><td>%или%</td><td>Делит текст на рандом части</td><td>-</td></tr>
               </table>
-            </div> <hr width="96%" class="linr">
+            </div> <hr class="ln">
             <div id=6> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#6">FAQ</a></li> </ul> </div>
               <table class="tbsa">
                 <tr>
@@ -176,5 +168,6 @@ VK.Widgets.Poll("vk_poll", {width: "1000"}, "382130079_5c544f3867aa078bd1");
 </script></div>
         <br>
         <div class="niz"><br><p>&copy; Великий Сверхкодер - Дима Смирнов 2020<br>&copy; <a href="terms.html">Пользовательское соглашение</a></p><br></div>
+        <script src="script.js"></script>
     </body>
 </html>

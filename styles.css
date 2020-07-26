@@ -1,102 +1,191 @@
-body {
-    background-color: #F5F7F9;
+/* Обнуление отступов страницы */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
 }
-.hdr {
-    color: black;
+
+/* Основа */
+body {
+    background-color: var(--background);
+}
+p {
+	font-family: 'Roboto';
+	text-align: center;
+	font-weight: 600;
+	font-size: 16px;
+  color: var(--color);
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 a {
-    color: black;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: var(--color);
+  font-size: 16px;
 }
+hr {
+  margin: 0 auto;
+  display: block; 
+  width: 98%;
+}
+
+/* Шрифт*/
+.sh1 {
+  font-size: 18px;
+}
+.sh2 {
+  font-size: 20px;
+}
+.sh3 {
+  font-size: 22px;
+}
+.sh4 {
+  font-size: 24px;
+}
+.sh5 {
+  font-size: 26px;
+}
+
+/* Линия */
+.ln {
+  border: 1px solid;
+  border-color: #4c75a3;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.lin1 {
+  width: 97%;
+}
+.lin2 {
+  width: 96%;
+}
+.lin3 {
+  width: 80%;
+}
+.lin4 {
+  width: 50%;
+}
+.lin5 {
+  width: 92%;
+}
+
+/* Панель */
 .hdr {
-  text-align: center;
-  font-size: 0.3in;
-  font-family: 'Caveat', cursive;
-}
-.hdr1 {
-  text-align: center;
-  background-color: #4c75a3;
-  color: white;
-  height: 0.45in;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
+/* ссылка имя */
+.hdr-name {
+}
+/* элемент ссылки */
+.name {
+}
+/* ссылка сердечко */
+.hdr-like {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.name {
+  width: 100%;
+  padding-left: 60px;
+  font-size: 28px;
+  font-family: 'Caveat', cursive;
+}  
+.favorite{
+} 
+.hdr1 {
+	text-align: center;
+	background-color: #4c75a3;
+	color: var(--color);
+	height: 0.45in;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+	align-items: center;
+}
+/* ссылка инфо */
+.hdr1-info {
+}
+/* ссылка команда */
+.hdr1-team {
+}
+/* ссылка проекты */
+.hdr1-project {
+}
+.hdr1 a {
+  font-size: 28px;
+	font-family: 'Caveat', cursive;
+}
 .main {
-    font-size: 35px;
     color: #26fc42;
 }
-.widget {
-  padding: 0px 0px;
-  background: #F5F7F9;
-  font-family: 'Roboto', sans-serif;
+
+/* Нижняя панель */
+.niz {
+  background-color: var(--color_niz);
+}
+.niz p {
   text-align: center;
+  font-family: 'Balsamiq Sans';
+  font-size: 16px;
+  color: #000000;
 }
-.widget-title {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #222;
-  font-size: 24px;
-  font-family: 'Caveat', cursive;
-}
-.widget-list {
-  padding: 0;
-  list-style: none;
-}
-.widget-list a:before {
-  content: "\2014";
-  margin-right: 14px;
-}
-.widget-list a {
-  text-decoration: none;
-  outline: none;
-  display: block;
-  padding: 6px 0; 
-  letter-spacing: 1px;
-  font-weight: 300;
-  color: #444;
-  transition: .3s linear;
-}
-.widget-list a:hover {color: #b99d61;}
-.text{
-	margin-left: 130px;
-}
-pre {
-	background-color: #2b2b2b;
-	padding: 5px;
-	border-radius: 2px;
-	color: white;
-	/*text-align: center;*/
-	
+.niz a {
+  font-family: 'Balsamiq Sans';
+  font-size: 16px;
+  color: #000000;
 }
 
-
-/*Меню*/
-.rtpz {
-                font-size: 26px; /* Размер текста заголовка бокового меню */
-                font-family: 'Caveat', cursive;
-                border-left: 2px solid #b99d61;
-            }
-.rtp {
-                font-size: 20px; /* Размер текста пунктов бокового меню */
-                font-family: 'Caveat', cursive;
-            }
-/*Полоса*/
-.linr {
-              size: 0.8;
-              color: "#1b2cc2";
-              margin-top: 0.5em;
-              margin-bottom: 0.5em;
-            }
-/*Вставка фото 50*50*/
-.clph {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 500px;
-  margin-top: 1em; /* Отступ сверху перед фото*/
+/* Тема сайта */
+/*
+background - фон страницы
+color - цвет шрифта
+color_ikonka - фон иконки
+color_niz - фон низа сайта
+*/
+.tema1 {
+  --background: #F5F7F9;
+  --color: #000000;
+  --color_ikonka: #3e4042;
+  --color_niz: #8e9194;
 }
 
-/*Вставка фото 50*50*/
+.tema2 {
+  --background: #3e4042;
+  --color: #ffffff;
+  --color_ikonka: #F5F7F9;
+  --color_niz: #d5d8db;
+}
+
+/* 2 картинки в строку */
+.cards {
+  margin: 0px 0px 45px 0px;
+}
+.cards__row{
+  margin: 0px -15px -45px -15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.cards__image {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 340px;
+  width: 550px;
+}
+/* Картинка */
+.cards__image img{
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*Вставка фото */
 .phot {
   width: 12%;
   height: 12%;
@@ -104,75 +193,30 @@ pre {
   margin: 10px 10px 10px 10px;
 }
 
-
-/*div для таблицы*/
-            .tbsa {
-                text-align: center;
-                margin: auto;
-                font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-                border-collapse: collapse;
-                border: 4px solid;
-                background: #384566;
-                font-size: 16px;
-                width: 90%;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-            }
-            .tbsa th, .tbsa td {
-               border-bottom: 1px solid #37B5A5;
-            }
-            .tbsa th {
-                color: #EDB749;
-                padding: 12px 17px;
-            }
-            .tbsa td {
-                color: #f5f7f7;
-                border-right: 1px solid #37B5A5;
-                padding: 7px 17px;
-            }
-            .tbsa td:first-child {
-              width: 15%;
-            }
-            .tbsa tr:last-child td {
-                border-bottom: none;
-            }
-            .tbsa td:last-child {
-                border-right: none;
-            }
-
-/*Низ сайта*/
-.niz {
-  background-color: #8e9194;
-}
-.niz p {
+/* Содержание */
+.widget {
   text-align: center;
-  font-family: 'Balsamiq Sans';
-  font-size: 16px;
-}
-.niz a {
-  font-family: 'Balsamiq Sans';
-  font-size: 16px;
-}
-
-/*Ссылки*/
-.aaa a {
-  text-decoration: none; /* Отменяем подчеркивание у ссылки */
   font-family: 'Caveat', cursive;
-  font-size: 24px;
-  margin-left: auto;
-  margin-right: auto;
 }
-
-            .wrap { /*Серая рамка с текстом*/
-                width: 100%; /* Ширина */
-            }
-            .wrap div {
-                background: #c2c2c2;
-                margin: 35px;
-                padding: 0px;
-                border: 5px solid;
-                border-radius: 15px;
-            }
+.widget-title {
+  letter-spacing: 2px;
+  font-size: 28px;
+  color: var(--color);
+}
+.widget-list a {
+  font-size: 22px;
+}
+.widget-list a: before {
+  content: "\2014";
+  margin-right: 14px;
+}
+.widget-list a {
+  display: block;
+  padding: 6px 0; 
+  letter-spacing: 1px;
+  font-weight: 300;
+  transition: .3s linear;
+}
 
 /*Рамки*/
 .ramka { 
@@ -254,4 +298,39 @@ pre {
 }
 .sp b {
   color: #3e2f52;
+}
+
+/* Таблица */
+.tbsa {
+  text-align: center;
+  margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  border: 4px solid;
+  background: #384566;
+  font-size: 16px;
+  width: 90%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.tbsa th, .tbsa td {
+  border-bottom: 1px solid #37B5A5;
+}
+.tbsa th {
+  color: #EDB749;
+  padding: 12px 17px;
+}
+.tbsa td {
+  color: #f5f7f7;
+  border-right: 1px solid #37B5A5;
+  padding: 7px 17px;
+}
+.tbsa td:first-child {
+  width: 15%;
+}
+.tbsa tr:last-child td {
+  border-bottom: none;
+}
+.tbsa td:last-child {
+  border-right: none;
 }

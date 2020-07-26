@@ -6,93 +6,58 @@
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+
         <style>
-            .cl {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 10px;
-            }
-            .body {
-                margin: 0px;
-                margin: 0px;
-                padding: 0px;
 
-            }
-        
-            a { 
-                    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-                font-family: 'Caveat', cursive;
-                font-size: 30px;
-                margin-left: auto;
-                margin-right: auto;  
-
-            }
-            P { 
-                text-align: center;
-                font-family: 'Balsamiq Sans', cursive;
-            }
-            /* Картинки в карточке */
-.cards {
-    margin: 0px 0px 45px 0px;
-}
-.cards__row{
-    margin: 0px -15px -45px -15px;
-    display: flex;
-    justify-content: center;
-}
-.cards__column {
-    flex: 0 1 33.333%;
-    padding: 0px 15px;
-}
-.cards__image {
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 58% 0px;
-    overflow: hidden;
-    position: relative;
-}
-/* Картинка */
-.cards__image img{
-    width: 5in;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-            
-
-            
          </style>
-                 <link rel="stylesheet" href="styles.css">
 
     </head>
  
-    <body class="body">
-        <header class="hdr"><a href="index.html">Дима Смирнов</a></header>
-        
-        <header class="hdr1"><a href="info.html">Информация</a> | <a href="team.html">Наша команда</a> | <a href="projects.html">Проекты</a></header> <br><br>
-            
-            <section class="cards"> 
-            	<div class="cards__row">
-                	<div class="cards__column"> 
-                		<div class="cards__image">
-                        	<img src="Dima.jpg" alt="">
-                    	</div> 
-                    </div>
+    <body>
+        <header class="ccc">
+            <div class="hdr">
+                <div class="hdr-logo"></div>
+                <div class="hdr-name">
+                    <a class="name" href="index.html">Дима Смирнов</a>
+                </div>
+                <div class="hdr-like">
+                    <a class="favorite" float="right" href="#">
+                        <svg width="24" height="22" fill="var(--color_ikonka)" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.9997 20C-9.1987 8.23285 5.64047 -4.54117 11.9997 3.53633C18.3598 -4.54117 33.1989 8.23285 11.9997 20Z" stroke-width="1.8" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="hdr1">
+            <div class="hdr1-info">
+                <a href="info.html">Информация</a>
+            </div> |
+            <div class="hdr1-team">
+                <a href="team.html">Наша команда</a>
+            </div> |
+            <div class="hdr1-project">
+                <a href="projects.html">Проекты</a>
+            </div>
+        </div>
+        <br><br>
+        <section class="cards"> 
+            <div class="cards__row">
+                <div class="cards__image">
+                    <img src="Dima.jpg" alt="">
+                </div> 
+                <div class="cards__image"> 
+                    <img src="ava-dima.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <br><br><hr class="lin2"><br>
+        <p class="sh2">Всю информацию обо мне и моих проектах вы можете найти на этом сайте используя удобную панель.</p>
+        <br><br>
 
-                    <div class="cards__column"> 
-                    	<div class="cards__image">
-                        	<img src="ava-dima.jpg" alt="">
-                    	</div>
-                    </div>
-            	<div> 
-            </section>
-
-                    <br><hr>
-        <p>Всю информацию обо мне и моих проектах вы можете найти на этом сайте используя удобную панель.</p>
-
-            <br><br><br>
         <div class="niz"><br><p>&copy; Великий Сверхкодер - Дима Смирнов 2020<br>&copy; <a href="terms.html">Пользовательское соглашение</a></p><br></div>
+        <script src="script.js"></script>
     </body>
 </html>
