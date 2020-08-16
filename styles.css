@@ -344,7 +344,7 @@ color_niz - фон низа сайта
 }
 /* оформляем текст label */
 .hide + label {
-    border-bottom: 1px dotted #3e2f52;
+    border-bottom: 1px solid #3e2f52;
     padding: 0;
     color: #3e2f52;
     cursor: pointer;
