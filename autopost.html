@@ -1,18 +1,588 @@
 <html>
     <head>
-        <title>Доступ запрещен</title>
+        <title>Автопост</title>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d0e828f213.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles-tems.css">
     </head>
  
-    <body>
-        <div class="ipp">
+    <body class="article">
+        <header class="ccc">
+            <div class="hdr">
+                <div class="hdr-logo"></div>
+                <div class="hdr-name">
+                    <a class="name" href="index.html">Дима Смирнов</a>
+                </div>
+                <div class="hdr-like">
+                    <a class="favorite" float="right" href="#">
+                        <svg width="24" height="22" fill="var(--color_ikonka)" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.9997 20C-9.1987 8.23285 5.64047 -4.54117 11.9997 3.53633C18.3598 -4.54117 33.1989 8.23285 11.9997 20Z" stroke-width="1.8" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <ul class="menu">
+                <li class="list"><a href="info.html">Информация</a></li> |
+                <li class="list"><a href="team.html">Наша команда</a></li> |
+                <li class="list"><a class="main" href="projects.html">Проекты</a></li>
+            </ul>
+            <ul class="menu">
+                <li class="list"><a class="main" href="autopost.html">Автопост</a></li> |
+                <li class="list"><a href="cm.html">Чат менеджер</a></li>
+            </ul>
         </div>
-        <div class="ip">
-            <p>К сожалению мы были вынуждены заблокировать Ваш IP-адрес для входа на наш сайт.</p>
-            <br>
-            <hr class="ippp">
-            <br>
-            <p>Unfortunately we were forced to block your IP address from entering our site.</p>
+
+        <div class="content" id="w">
+	        <div class="widget">
+                <h3 class="widget-title">Содержание</h3>
+                <ul class="widget-list">
+                    <a href="#1">Всё о боте</a>
+                    <a href="#2">Авторизация</a>
+                    <a href="#3">Команды</a>
+                    <a href="#4">Тарифы</a>
+                    <a href="#5">Переменные</a>
+                    <a href="#6">FAQ</a>
+                </ul>
+            </div>
+
+            <hr class="ln">
+
+    <div id=1><div class="widget"><ul class="widget-list"><a href="#1">Всё о боте</a></ul></div>
+        <section class="cards-section text-center">
+            <div class="container">
+                <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <i class="icon fab fa-vk"></i>
+                            </div>
+                            <h3 class="title">Автопост</h3>
+                            <p class="intro">Новостное сообщество ВКонтакте</p>
+                            <a class="link" href="https://vk.com/autopost_info"><span></span></a>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <i class="icon fab fa-vk"></i>
+                            </div>
+                            <h3 class="title">Автопост</h3>
+                            <p class="intro">Актуальное сообщество с Чат-Ботом №1</p>
+                            <a class="link" href="https://vk.com/autopost3"><span></span></a>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <i class="icon fab fa-vk"></i>
+                            </div>
+                            <h3 class="title">Автопост</h3>
+                            <p class="intro">Актуальное сообщество с Чат-Ботом №2</p>
+                            <a class="link" href="https://vk.com/autopost4"><span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="ramka ser">
+            <p style="font-size: 20px; margin: 12px;">Кратко о возможностях:</p>
+            <ul class="list4a">
+                <li>Добавление неограниченного количество токенов (подключение всех своих страниц)</li>
+                <li>Создание большого количества заданий от имени своих страниц с заданным интервалом выполнения</li>
+                <li>Подключение заданий доступно в любой раздел ВКонтакте: статус, сообщения, комментарии, посты и др.</li>
+                <li>Возможность заданий отключаться автоматически через указанное количество выполнений либо время</li>
+                <li>Возможности установки в текст переменных либо стикеров, а также вложений</li>   
+            </ul>
         </div>
+    </div> <hr class="ln">
+            <div id=2> <div class="widget"> <ul class="widget-list"> <a class="rtp" href="#2">Авторизация</a> </ul> </div>
+        <section class="cards-section text-center">
+            <div class="container">
+                <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-user-lock"></i>
+                            </div>
+                            <h3 class="title">Получить токен</h3>
+                            <p class="intro">Kate Mobile</p>
+                            <a class="link" href="https://oauth.vk.com/authorize?client_id=2685278&scope=341506&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1"><span></span></a>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-user-lock"></i>
+                            </div>
+                            <h3 class="title">Получить токен</h3>
+                            <p class="intro">VK Me</p>
+                            <a class="link" href="https://oauth.vk.com/authorize?client_id=6146827&scope=341506&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1"><span></span></a>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <i class="icon fas fas fa-user-lock"></i>
+                            </div>
+                            <h3 class="title">Получить токен</h3>
+                            <p class="intro">VFeed</p>
+                            <a class="link" href="https://oauth.vk.com/authorize?client_id=4083558&scope=341506&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1"><span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="ramka ser">
+            <p><b>Всё об авторизации:</b><p>В нашем Автопосте можно подключать несколько аккаунтов сразу, поэтому принцип работы усложняется за счет того, что Автопосту необходимо понимать с каким аккаунтом работать.<p>Для авторизации необходимо получить токен. Какое приложение решать Вам. Но отметим, что токен VK Me даёт дополнительную возможность - исчезающие сообщения.<p>Получаем токен по одной из ссылок выше: в открытой странице нажимаем "Разрешить", после открывается новая страница и мы копируем её адрес. Должна получиться ссылка, которая начинается с "https://oauth.vk.com/blank.html#access_token="<br>Далее заходим в любое <b>официальное сообщество Автопоста</b> и вводим команду "Добавить токен <ссылка>"<p>Еще раз обращаем Ваше внимание! Это важный и ответственный этап в начале работы с Автопостом.<br>Пожалуйста, убедитесь что вы получили нужную ссылку и вводите её в нужное сообщество, правильно указывая команду!</p>
+        </div>
+            
+            </div> <hr class="ln">
+            <div id=3><div class="widget"><ul class="widget-list"><a class="rtp" href="#3">Команды</a></ul></div>
+        <div class="ramka ser spcal">
+            <p><b>Всё о функционале Автопоста:</b><p>Знаком "/" разделены варианты команд.<br>Аргументы в < > являются обязательными, а в [ ] нет.</p>
+            <hr class="ln lin2">
+            <br>
+            <table class="tbsa">
+                <tr>
+                  <th>Команда</th><th>Описание</th>
+                </tr>
+                <tr><td>Начать/помощь/команды/токен</td><td>-</td></tr>
+                <tr><td>Инфа</td><td>Наличие вип возможностей</td></tr>
+                <tr><td>Авторизации</td><td>Список авторизаций</td></tr>
+                <tr><td>Токен добавить/добавить токен <токен></td><td>Добавляет новую авторизацию или обновляет старую<br></td></tr>
+                <tr><td>Синхронизация/resyns <айди></td><td>Включает обновление переменных - относительно диалогов и информации страницы</td></tr>
+                <tr><td>Токен удалить/удалить токен <айди></td><td>Удаляет токен и его информацию</td></tr>
+                <tr><td>Мои диалоги</td><td>Показывает список 15 последних диалогов и их уникальные id для каждого подключенного аккаунта</td></tr>
+                <tr><td>Задания</td><td>Список заданий, созданных с вашего аккаунта</td></tr>
+                <tr><td>Логи <колво страниц></td><td>Журнал действий</td></tr>
+                <tr><td>Создать задание</td><td>Запускает настройку нового задания. Ответы на часто задаваемые вопросы есть ниже в разделе FAQ</td></tr>
+                <tr><td>Задание <номер></td><td>Показывает клавиатуру управления заданием</td></tr>
+                <tr><td>Задание редактировать/редактировать задание <номер> [этап <1-3>]</td><td>Включает настройку задания. При указании этапа начальные настройки запрашиваться не будут.</td></tr>
+                <tr><td>Задание <номер> стикер [айди]</td><td>Устанавливает указанный стикер для отправки</td></tr>
+                <tr><td>Задание <номер> группа [айди]</td><td>Устанвливает группу для установки в нее автостатуса.
+                <tr><td>Задание <номер> вложения [строка]</td><td>Устаналивает указанную строку вложений для отправки с текстом</td></tr>
+                <tr><td>Задание <номер> выключить</td><td>Остановка и восстановление задания без удалений</td></tr>
+                <tr><td>Задание <номер> автовыключение [колво/время <число>]</td><td>Задания отключится автоматически через указанное колво выполнений или время в минутах</td></tr>
+                <tr><td>Задание удалить/удалить задание <номер></td><td>Удаляет задание</td></tr>
+                <tr><td>Кнопки</td><td>Показывает внешнюю клавиатуру</td></tr>
+              </table>
+              <br>
+
+            </div> <hr class="ln">
+            <div id=4> <div class="widget"> <ul class="widget-list"> <a class="rtp" href="#4">Тарифы</a> </ul> </div>
+        <section class="cards-section text-center">
+            <div class="container">
+                <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h2">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">Бесплатный тариф</h3>
+                            <p class="intro">Цена: 0 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Кол-во заданий - 5<p>Частота выполнения заданий - 90 секунд<p>Длина текста - 500 символов<p>Кол-во использований переменной %или% - 3<p>Кол-во страниц журнала действий - 3</p>
+                            </div>
+                            <a class="link" href="https://vk.com/first_cm?w=app6471849_-171475621"><span></span></a>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h2">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">VIP тариф</h3>
+                            <p class="intro">Цена: 30 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Кол-во заданий - 20<p>Частота выполнения заданий - 50 секунд<p>Длина текста - 800 символов<p>Кол-во использований переменной %или% - 10<p>Кол-во страниц журнала действий - 10</p>
+                            </div>
+                            <a class="link" href="https://vk.com/first_cm?w=app6471849_-171475621"><span></span></a>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h2">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">VIP Plus тариф</h3>
+                            <p class="intro">Цена: 70 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Кол-во заданий - 45<p>Частота выполнения заданий - 20 секунд<p>Длина текста - 1500 символов<p>Кол-во использований переменной %или% - 20<p>Кол-во страниц журнала действий - 25</p>
+                            </div>
+                            <a class="link" href="https://vk.com/first_cm?w=app6471849_-171475621"><span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="widget"><ul class="widget-list"><a class="rtp" href="#4">Лимиты</a></ul></div>
+        <section class="cards-section text-center">
+            <div class="container">
+                <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">Дополнительные задания</h3>
+                            <p class="intro">Цена: 7 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Добавление 3х заданий</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">Дополнительные задания</h3>
+                            <p class="intro">Цена: 10 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Добавление 5и заданий</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">Снижение частоты выполнения заданий</h3>
+                            <p class="intro">Цена: 7 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Частота выполнения заданий снижена на 5 секунд</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">Снижение частоты выполнения заданий</h3>
+                            <p class="intro">Цена: 12 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Частота выполнения заданий снижена на 10 секунд</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">Дополнительные группы</h3>
+                            <p class="intro">Цена: 25 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Количество групп для установки в них Автопоста увеличено на 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">Дополнительные группы</h3>
+                            <p class="intro">Цена: 45 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Количество групп для установки в них Автопоста увеличено на 2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-briefcase"></i>
+                            </div>
+                            <h3 class="title">Дополнительные группы</h3>
+                            <p class="intro">Цена: 60 рублей</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Количество групп для установки в них Автопоста увеличено на 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div> 
+    <hr class="ln">
+    <div id=5> <div class="widget"> <ul class="widget-list"> <a class="rtp" href="#5">Переменные</a> </ul> </div>
+        <div class="ramka ser">
+            <p><b>Всё о переменных:</b><p>Переменные - это такие маленькие носители информации, которые постоянно изменяются. Например, количество друзей онлайн или время.<p>Мы используем переменные в текстах наших заданий. Таким образом Вы можете создать себе уникальный автостатус или даже публиковать отчеты с тем, как изменились показетели вашей страницы за время в группах или комментариях.<p>Переменные оборачиваются с обеих сторон в "%" и выглядят так - "%друзей%".<p>Есть 3 типа переменных - обычные, специальные и синхронные.<br>Обычные это те, которые вы вставили в текст и они постоянно работают в режиме онлайн.<br>Специальные это те, которые изменяют текст сообщения, а сами пропадают. Например так, переменная "%цифростатус%" заменяет в тексте все цифры на смайлы, а сама пропадает.<br>Синхронные это те, которые напрямую зависят от значений вашего профиля в VK и требуют синхронизации с API VK. Перед использование таких переменных необходимо включить синхронизацию.</p>
+        </div>
+            
+        <section class="cards-section text-center">
+            <div class="container">
+                <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%дата%</h3>
+                            <p class="intro">Тип: обычный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Дата онлайн в формате 01.10.2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%время%</h3>
+                            <p class="intro">Тип: обычный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Время онлайн в формате 14:41</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%цифродата%</h3>
+                            <p class="intro">Тип: обычный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Дата онлайн в формате смайлов 01.10.2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%цифровремя%</h3>
+                            <p class="intro">Тип: обычный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Время онлайн в формате смайлов 14:41</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%подписчиков%</h3>
+                            <p class="intro">Тип: синхронный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Количество подписчиков на странице</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%друзей%</h3>
+                            <p class="intro">Тип: синхронный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Количество друзей на странице</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%друзей-онлайн%</h3>
+                            <p class="intro">Тип: синхронный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Количество друзей онлайн на странице</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%диалогов%</h3>
+                            <p class="intro">Тип: синхронный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Количество диалогов на странице</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%диалог-имя%</h3>
+                            <p class="intro">Тип: синхронный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Название последнего чата</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%непрочитанных%</h3>
+                            <p class="intro">Тип: синхронный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Количество непрочитанных сообщений на странице</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%цифростатус%</h3>
+                            <p class="intro">Тип: специальный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Все цифры в тексте сообщения будут отображены смайлами</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                        <div class="item-inner cards-h1">
+                            <div class="icon-holder">
+                                <i class="icon fas fa-percentage"></i>
+                            </div>
+                            <h3 class="title">%или%</h3>
+                            <p class="intro">Тип: специальный</p>
+                            <hr class="ln">
+                            <div class="divleft">
+                                <p>Отправка рандомной части текста разделенного %или%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div> 
+    <hr class="ln">
+    <div id=6><div class="widget"><ul class="widget-list"><a class="rtp" href="#6">FAQ</a></ul></div>
+
+            <div class="ramka ser spcal">
+              	<div class="demo">
+    				<input type="checkbox" id="hd-1" class="hide"/>
+    				<label for="hd-1">1. Что такое "Автопост"?</label>
+    				<div>Автопост - бот, который отправляет какие-либо сообщения от вашего имени с указанным интервалом.</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-2" class="hide"/>
+    				<label for="hd-2">2. Как работает "Автопост"?</label>
+    				<div>Автопост отправляет сообщения с помощью запросов к ВКонтакте с токеном вашей страницы.</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-3" class="hide"/>
+    				<label for="hd-3">3. Сколько можно подключить страниц?</label>
+    				<div>Вы можете подключать каждую страницу отдельно, а можете подключить все страницы к одной. Таким образом Вы сможете управлять своими страницами с одной - быстро и удобно!</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-4" class="hide"/>
+    				<label for="hd-4">4. Где хранятся токены?</label>
+    				<div>Токены хранятся в базе данных на нашем сервере, к которому доступ имеется только у разработчика.<br>Токены невозможно извлечь из базы данных и они не могут быть переданы третьим лицам.</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-5" class="hide"/>
+    				<label for="hd-5">5. Как получить токен?</label>
+    				<div>На этот вопрос ответ есть - <a href="https://coder-dima.github.io/vk/autopost.html#2">ТУТ</a>.</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-6" class="hide"/>
+    				<label for="hd-6">6. Как создать задание?</label>
+    				<div>Задание создается командой "Создать задание". Далее потребуется настройка задания.<br>Мы используем инлайн-клавиатуру для наиболее удобной настройки заданий.</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-7" class="hide"/>
+    				<label for="hd-7">7. Куда "Автопост" пишет сообщения?</label>
+    				<div>Сообщения - ЛС и беседы<br>Комментарии - на страницы и в сообщества под посты, а также в обсуждения<br>Посты - на страницы и в сообщества<br>В статус страницы или сообщества<br></div>
+    				<br><br>
+    				<input type="checkbox" id="hd-8" class="hide"/>
+    				<label for="hd-8">8. Поддержка вложений, стикеров</label>
+    				<div>Автопост умеет отправлять вложения в задании. Также отдельной функцией вы можете установить отправку стикера.</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-9" class="hide"/>
+    				<label for="hd-9">9. Может ли "Автопост" остановить выполнения задания в нужный мне момент?</label>
+    				<div>Да. Вы можете включить автовыключение двумя способами раздельно или одновременно. Вы можете установить выключение через заданное количество минут, а можете указать количество заданий. Когда это количество заданий будет успешно выполнено - оно отключится. Позже вы можете включить задание вновь, не настраивая его.</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-10" class="hide"/>
+    				<label for="hd-10">10. Автопост просит меня указать айди страницы или сообщества.</label>
+    				<div>Верно! При настройке задания будет запрошен уникальный ID VK. Его можно получить открыв любое вложение сообщества - фото, видео, пост и тд. Скопировав ссылку на это вложение вы получите айди.
+    				Например в ссылке "https://vk.com/first_cm?w=wall-171475621_723" айди аккаунта это -171475621. То есть оно находится между типом вложения и айди вложения. 
+    				Как Вы могли заметить, у сообществ айди отрицательный. Пробелов и сторонних знаков в нём не содержится - только число.
+    				</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-11" class="hide"/>
+    				<label for="hd-11">11. Автопост просит меня укзать айди обсуждения</label>
+    				<div>Скопируйте ссылку на обсуждение. Например - "https://vk.com/topic-1_35487172". 
+    				"topic-1_" - это указывает на то, что это обсуждения сообщества vk.com/club1.
+    				"35487172" - айди обсуждения.</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-12" class="hide"/>
+    				<label for="hd-12">12. Автопост просит меня укзать айди стикера</label>
+    				<div>Отправьте его в сообщении. Нажмите правую кнопку мыши и выберите "посмотреть код". В выделенной строке есть ссылка с id. Например в ссылке "https://vk.com/sticker/1-9032-128" айди стикера - 9032</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-13" class="hide"/>
+    				<label for="hd-13">13. Автопост просит меня укзать айди поста</label>
+    				<div>Аналогично вопросу 11. 
+    				Например - в ссылке "https://vk.com/first_cm?w=wall-171475621_738" айди поста - 738</div>
+    				<br><br>
+    				<input type="checkbox" id="hd-14" class="hide"/>
+    				<label for="hd-14">14. Подробности переменной %или%</label>
+    				<div>В строке текста задания вы можете указать несколько переменных, которые разделят текст на рандомные сообщения. То есть, текст "Привет!%или%Добрый день!%или%Здравствуйте!" разделится на 3 части. Это - "Привет!", "Добрый день!" и "Здравствуйте!". Будет отправляться каждый раз новая рандомная часть вашей строки.</div>
+                    <br><br>
+                    <input type="checkbox" id="hd-15" class="hide"/>
+                    <label for="hd-15">15. Не работают переменные в тексте</label>
+                    <div>В автопосте можно устанавливать в текст переменные. Например отправлять сообщение "Сейчас - %дата% %время% и у меня уже %друзей% друзей!".<br>Однако, чтобы переменные постоянно обновлялись нужно включить синхронизацию данных. Это можно сделать командой "Синхронизация IDстраницы".<br>Данные обновляются каждые 5 минут.</div>
+                    <br><br>
+                    <input type="checkbox" id="hd-16" class="hide"/>
+                    <label for="hd-16">16. Переменная %цифростатус% - замена цифр в тексте статуса на смайлы</label>
+                    <div>Вы можете установить переменную %цифростатус% в любом месте текста. Она пропадет, а цифры будут заменены на смайлы.<br>Если Вам нужно вывести смайлами только дату или время введите %цифродата% или %цифровремя%.<br>Не используйте %цифростатус% вместе с %цифродата%/%цифровремя%.</div>
+    				<br><br>
+				</div>
+			</div> <br><br>
+            </div> 
+
+                <div class="wrapk" align="center">
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+<script type="text/javascript">
+  VK.init({apiId: 7468961, onlyWidgets: true});
+</script>
+<div id="vk_poll"></div>
+<script type="text/javascript">
+VK.Widgets.Poll("vk_poll", {width: "700"}, "415481899_4cd1e9b41748098bde");
+</script></div>
+        <br>
+        <div class="niz"><br><p>&copy; Великий Сверхкодер - Дима Смирнов 2020<br>&copy; <a href="terms.html">Пользовательское соглашение</a></p><br></div>
+        <script src="script.js"></script>
     </body>
 </html>
