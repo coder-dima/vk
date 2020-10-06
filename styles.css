@@ -30,10 +30,10 @@ hr {
 }
 
 .article {
-  margin: 0px auto;
+  margin: 0 auto;
   width: 70%;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
   .article {
     width: 100%;
   }
