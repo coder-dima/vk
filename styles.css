@@ -33,7 +33,7 @@ hr {
   margin: 0 auto;
   width: 70%;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .article {
     width: 100%;
   }
