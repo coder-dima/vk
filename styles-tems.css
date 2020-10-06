@@ -6,7 +6,7 @@ color_niz - фон низа сайта
 hr_width - высота полосы <hr>
 widget_list_f_t - жирность шрифта содержания
 background_panels - основной цвет сайта, фон панелей
-
+border_ramka_t - толщина рамки
 */
 
 .tema1 {
@@ -17,6 +17,7 @@ background_panels - основной цвет сайта, фон панелей
   --hr_width: 0px;
   --widget_list_f_t: 500;
   --background_panels: #5c87b8;
+  --border_ramka_t: 2px;
 }
 
 .tema2 {
@@ -27,6 +28,7 @@ background_panels - основной цвет сайта, фон панелей
   --hr_width: 1px;
   --widget_list_f_t: 400;
   --background_panels: #5c87b8;
+  --border_ramka_t: 3px;
 }
 
 

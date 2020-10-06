@@ -1,12 +1,9 @@
-/* Обнуление отступов страницы */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
 }
-
-/* Основа */
 body {
     background-color: var(--background);
 }
@@ -67,20 +64,8 @@ hr {
   border-bottom-width: 1px;
   width: 100%;
 }
-.lin1 {
-  width: 97%;
-}
 .lin2 {
   width: 96%;
-}
-.lin3 {
-  width: 80%;
-}
-.lin4 {
-  width: 50%;
-}
-.lin5 {
-  width: 92%;
 }
 
 /* Панель */
@@ -90,16 +75,13 @@ hr {
   align-items: center;
   height: 40px
 }
-/* ссылка имя */
 .hdr-name {
 }
-/* элемент ссылки */
 .name {
 }
-/* ссылка сердечко */
 .hdr-like {
-  margin-right: 5px;
-  margin-top: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 .name {
   width: 100%;
@@ -113,7 +95,6 @@ hr {
 
 
 .wrapper {
-/**/
 }
 .main {
     color: #26fc42;
@@ -243,7 +224,7 @@ a {
 /*Рамка - зеленая*/
 .zel { 
   background: #e4f5e7;
-  border: 0.020in solid #59805f;
+  border: var(--border_ramka_t) solid #59805f;
 }
 .zel a { 
   color: #0d2110;
@@ -257,7 +238,7 @@ a {
 /*Рамка - красная*/
 .krasn { 
   background: #f5e4e4;
-  border: 0.020in solid #805959;
+  border: var(--border_ramka_t) solid #805959;
 }
 .krasn a { 
   color: #210d0d;
@@ -271,7 +252,7 @@ a {
 /*Рамка - голубая*/
 .gol { 
   background: #e4f5f5;
-  border: 0.020in solid #598080;
+  border: var(--border_ramka_t) solid #598080;
 }
 .gol a { 
   color: #0d2120;
@@ -285,7 +266,7 @@ a {
 /*Серо-голубая - голубая*/
 .ser { 
   background: #e6e8eb;
-  border: 2px solid #5c87b8;
+  border: var(--border_ramka_t) solid #5c87b8;
   width: 62%;
 }
 .ser a { 
@@ -309,7 +290,7 @@ a {
 /*Специальная рамка */
 .sp { 
   background: #ede4f5;
-  border: 0.020in solid #6f5980;
+  border: var(--border_ramka_t) solid #6f5980;
 }
 .sp a { 
   color: #170d21;
@@ -356,38 +337,29 @@ a {
 }
 
 /* FAQ */
-/* скрываем чекбоксы и блоки с содержанием */
+.div-faq {
+  margin: 25px 30px;
+}
 .hide {
 }
 .hide + label ~ div{
-    display: none;
+  display: none;
 }
-/* оформляем текст label */
 .hide + label {
-    border-bottom: 1px solid #3e2f52;
-    padding: 0;
-    color: #3e2f52;
-    cursor: pointer;
-    display: inline-block; 
+  border-bottom: 2px solid var(--background_panels);
+  color: var(--background_panels);
+  cursor: pointer;
+  display: inline-block; 
 }
-/* вид текста label при активном переключателе */
 .hide:checked + label {
-    color: #3e2f52;
-    border-bottom: 0;
+  border-bottom: 0;
 }
-/* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
-    display: block; 
-    background: #efefef;
-    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
-    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
-    box-shadow: inset 3px 3px 10px #7d8e8f;
-    padding: 10px; 
-}
-
-/* demo контейнер */
-.demo {
-    margin: 20px 20px;
+  display: block; 
+  -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+  box-shadow: inset 3px 3px 10px #7d8e8f;
+  padding: 10px;
+  color: var(--background_panels);
 }
 
 /* Блоки */
@@ -401,6 +373,7 @@ a {
 .col-md-4 {
   padding-bottom: 15px;
   padding-top: 15px;
+  width: 33.33333333%;
 }
 .cards-section .title {
   margin-top: 0;
@@ -437,6 +410,9 @@ a {
 }
 .cards-h2 {
   height: 435px;
+}
+.cards-h3 {
+  height: 186px;
 }
 .cards-section .item-inner {
   padding: 30px 30px;
