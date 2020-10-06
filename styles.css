@@ -67,6 +67,9 @@ hr {
 .lin2 {
   width: 96%;
 }
+.lin3 {
+  width: 94%;
+}
 
 /* Панель */
 .hdr {
@@ -76,8 +79,6 @@ hr {
   height: 40px
 }
 .hdr-name {
-}
-.name {
 }
 .hdr-like {
   margin-right: 10px;
@@ -119,21 +120,6 @@ a {
   font-weight: 600;
 }
 
-/* Нижняя панель */
-.niz {
-  background-color: var(--color_niz);
-}
-.niz p {
-  text-align: center;
-  font-family: 'Balsamiq Sans';
-  font-size: 16px;
-  color: #000000;
-}
-.niz a {
-  font-family: 'Balsamiq Sans';
-  font-size: 16px;
-  color: #000000;
-}
 
 /* 2 картинки в строку */
 .Qcards {

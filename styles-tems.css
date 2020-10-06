@@ -32,5 +32,20 @@ border_ramka_t - толщина рамки
 }
 
 
-/* Цвета рамок */
-
+/* Низ сайта */
+.niz {
+  background-color: var(--color_niz);
+}
+.niz div {
+  height: 10px;
+}
+.niz p, .niz a {
+  color: #000000;
+  font-family: 'PT Sans', cursive;
+  margin-bottom: 0px;
+  font-size: 18px;
+  padding: 5px 5px;
+}
+.niz p {
+  text-align: center;
+}
