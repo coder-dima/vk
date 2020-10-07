@@ -272,6 +272,9 @@ a {
   border-left: 2px solid #000;
   padding-left: 18px;
 }
+.spcall {
+  width: 95%;
+}
 
 /*Специальная рамка */
 .sp { 
