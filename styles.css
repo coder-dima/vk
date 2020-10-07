@@ -17,10 +17,13 @@ p, li {
   letter-spacing: 0.4px;
 }
 a {
-  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  text-decoration: none;
   color: var(--color);
-  font-size: 16px;
+  font-size: 22px;
+  font-family: 'PT Sans', cursive;
+  font-weight: 600;
 }
+
 hr {
   margin: 0 auto;
   display: block;
@@ -34,23 +37,6 @@ hr {
   .article {
     width: 100%;
   }
-}
-
-/* Шрифт*/
-.sh1 {
-  font-size: 18px;
-}
-.sh2 {
-  font-size: 20px;
-}
-.sh3 {
-  font-size: 22px;
-}
-.sh4 {
-  font-size: 24px;
-}
-.sh5 {
-  font-size: 26px;
 }
 
 /* Линия */
@@ -92,9 +78,7 @@ hr {
   font-weight: 600;
 }  
 .favorite{
-} 
-
-
+}
 .wrapper {
 }
 .main {
@@ -113,38 +97,23 @@ hr {
   list-style: none;
   margin: 0 20px;
 }
-a {
-  text-decoration: none;
-  font-size: 22px;
+
+/* Низ сайта */
+.niz {
+  background-color: var(--color_niz);
+}
+.niz div {
+  height: 10px;
+}
+.niz p, .niz a {
+  color: #000000;
   font-family: 'PT Sans', cursive;
-  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 18px;
+  padding: 5px 5px;
 }
-
-
-/* 2 картинки в строку */
-.Qcards {
-  margin: 0px 0px 45px 0px;
-}
-.Qcards__row{
-  margin: 0px -15px -45px -15px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.Qcards__image {
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 340px;
-  width: 550px;
-}
-/* Картинка */
-.Qcards__image img{
-  width: 90%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
+.niz p {
+  text-align: center;
 }
 
 /*Вставка фото */
@@ -234,20 +203,6 @@ a {
 }
 .krasn b {
   color: #522f2f;
-}
-/*Рамка - голубая*/
-.gol { 
-  background: #e4f5f5;
-  border: var(--border_ramka_t) solid #598080;
-}
-.gol a { 
-  color: #0d2120;
-}
-.gol p {
-  color: #2f5252;
-}
-.gol b {
-  color: #2f5252;
 }
 /*Серо-голубая - голубая*/
 .ser { 
