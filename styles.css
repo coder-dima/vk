@@ -349,6 +349,14 @@ a {
   color: var(--background_panels);
   font-size: 16px;
 }
+@media screen and (max-width: 1000px) {
+  .hide + label {
+    font-size: 18px;
+  }
+  .hide:checked + label + div {
+    font-size: 18px;
+  }
+}
 
 /* Блоки */
 .cards-section {
