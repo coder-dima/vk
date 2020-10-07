@@ -335,7 +335,8 @@ a {
   border-bottom: 2px solid var(--background_panels);
   color: var(--background_panels);
   cursor: pointer;
-  display: inline-block; 
+  display: inline-block;
+  font-size: 16px;
 }
 .hide:checked + label {
   border-bottom: 0;
@@ -346,6 +347,7 @@ a {
   box-shadow: inset 3px 3px 10px #7d8e8f;
   padding: 10px;
   color: var(--background_panels);
+  font-size: 16px;
 }
 
 /* Блоки */
