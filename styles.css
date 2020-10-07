@@ -351,10 +351,10 @@ a {
 }
 @media screen and (max-width: 1000px) {
   .hide + label {
-    font-size: 18px;
+    font-size: 22px;
   }
   .hide:checked + label + div {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
