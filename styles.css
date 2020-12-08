@@ -62,7 +62,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px
+  height: 40px;
 }
 .hdr-name {
 }
@@ -248,7 +248,6 @@ hr {
 
 /* Таблица */
 .tbsa {
-  text-align: center;
   margin: auto;
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   border-collapse: separate;
@@ -264,14 +263,13 @@ hr {
 }
 .tbsa th {
   padding: 12px 17px;
-  text-align: center;
 }
 .tbsa td {
   padding: 7px 17px;
   border-right: 2px solid var(--background_panels);
 }
 .tbsa td:first-child {
-  width: 15%;
+  width: 25%;
 }
 .tbsa tr:last-child td {
   border-bottom: none;
