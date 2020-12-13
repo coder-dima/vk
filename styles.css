@@ -116,14 +116,6 @@ hr {
   text-align: center;
 }
 
-/*Вставка фото */
-.phot {
-  width: 12%;
-  height: 12%;
-  float: left;
-  margin: 10px 10px 10px 10px;
-}
-
 /* Выравниваем диву текст на левый край */ 
 .divleft p {
   text-align: left;
