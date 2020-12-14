@@ -1,6 +1,6 @@
 .terms {
 	font-size: 14px;
-	background: #fff;
+	background: var(--background_terms);
 	width: 100%;
 	padding: 20px;
 	border-radius: 5px;
@@ -34,4 +34,7 @@
 	font-weight: 500;
 	padding: 4px 0 4px 3px;
 	list-style: disc;
+}
+.span {
+	background: #f2f7f4;
 }
