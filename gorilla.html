@@ -43,13 +43,13 @@
             </ul>
         </div>
 
-<!--        <div class="content" id="w">
-	        <div class="widget">
+        <div class="content" id="w">
+            <div class="widget">
                 <h3 class="widget-title">Содержание</h3>
                 <ul class="widget-list">
-                    <a target="_self" href="#1">Активация</a>
-                    <a target="_self" href="#2">Начало работы</a>
-                    <a target="_self" href="#3">Страничный менеджер</a>
+                    <a target="_self" href="#1">Всё о боте</a>
+                    <a target="_self" href="#2">Авторизация</a>
+                    <a target="_self" href="#3">Команды</a>
 			  </ul>
 			</div>
         </div>
@@ -61,21 +61,86 @@
                     <a target="_self"  href="#1">Всё о боте</a>
                 </ul>
             </div>
-            <-- Контент раздела --
+            <div class="ramka ser spcal">
+                <p><b>Кратко о возможностях:<b></p>
+                <ul class="list4a">
+                    <li>Добавление неограниченного количество токенов (подключение всех своих страниц)</li>
+                    <li>АнтиКапча всех видов, работа в лс и в беседах</li>
+                    <li>Подбор гос номеров</li>
+                    <li>Платите столько, сколько использовали</li>
+                </ul>
+            </div>
         </div>
         <hr class="ln">
         <div id=2>
             <div class="widget">
                 <ul class="widget-list">
-                    <a target="_self"  href="#2">Всё о боте</a>
+                    <a target="_self"  href="#2">Авторизация</a>
                 </ul>
             </div>
-            <-- Контент раздела --
-        </div> -->
-
-<br><div class="ramka ser spcal">
-    <p>Скоро...</p>
-</div><br>
+            <section class="cards-section text-center">
+                <div class="container">
+                    <div id="cards-wrapper" class="cards-wrapper row">
+                        <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                            <div class="item-inner cards-h3">
+                                <div class="icon-holder">
+                                    <i class="icon fas fa-user-lock"></i>
+                                </div>
+                                <h3 class="title">Получить токен</h3>
+                                <p class="intro">Kate Mobile</p>
+                                <a class="link" href="https://oauth.vk.com/authorize?client_id=2685278&scope=341506&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1"><span></span></a>
+                            </div>
+                        </div>
+                        <div class="item item-panel col-md-4 col-sm-6 col-xs-6">
+                            <div class="item-inner cards-h3">
+                                <div class="icon-holder">
+                                    <i class="icon fas fa-user-lock"></i>
+                                </div>
+                                <h3 class="title">Получить токен</h3>
+                                <p class="intro">VK Me</p>
+                                <a class="link" href="https://oauth.vk.com/authorize?client_id=6146827&scope=341506&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1"><span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="ramka ser">
+                <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+                <div id="vk_article_-189326147_46645"></div>
+                <script type="text/javascript">
+                VK.Widgets.Article("vk_article_-189326147_46645", "@articles_vk-autopost-authorization");
+                </script>
+            </div>
+        </div>
+        <hr class="ln">
+        <div id=3>
+            <div class="widget">
+                <ul class="widget-list">
+                    <a target="_self"  href="#3">Команды</a>
+                </ul>
+            </div>
+            <div class="ramka ser spcal">
+            <p><b>Всё о функционале Автоматизации Bot Gorilla:</b><p>Знаком "/" разделены варианты команд.<br>Аргументы в < > являются обязательными, а в [ ] нет.</p>
+            <hr class="ln lin2">
+            <table class="tbsa">
+                <tr>
+                  <th>Команда</th><th>Описание</th>
+                </tr>
+                <tr><td>Начать/помощь/команды</td><td>Информационная справка</td></tr>
+                <tr><td>Инфа</td><td>Информация по балансу</td></tr>
+                <tr><td>Пополнить баланс</td><td>Информация о способах пополнения основного баланса и балансов определенных функций</td></tr>
+                <tr><td>Авторизации/Токены</td><td>Список авторизаций</td></tr>
+                <tr><td>Добавить токен <токен></td><td>Добавляет новый токен или обновляет старый<br></td></tr>
+                <tr><td>Удалить токен <айди страницы></td><td>Удаляет все данные о токене</td></tr>
+                <tr><td>Антикапча</td><td>Информация об услуге</td></tr>
+                <tr><td>Подбор номеров</td><td>Информация об услуге</td></tr>
+                <tr><td>Антикапча <айди></td><td>Включение антикапчи</td></tr>
+                <tr><td>Антикапча <айди> <0-1></td><td>Включение антикапчи в ЛС - 0, в ЛС + Чаты - 1</td></tr>
+                <tr><td>Подбор <айди> <1-3></td><td>Включение подбора гос номеров. Номер указывает на частоту покупки, подробнее в команде "Подбор номеров"</td></tr>
+            </table>
+            <br>
+        </div>
+        <br>
 
         <div class="wrapk" align="center">
             <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>

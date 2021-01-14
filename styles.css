@@ -16,12 +16,16 @@ p, li {
   line-height: 24px;
   letter-spacing: 0.4px;
 }
+
 a {
   text-decoration: none;
   color: var(--color);
   font-size: 22px;
   font-family: 'PT Sans', cursive;
   font-weight: 600;
+}
+a:hover {
+  color: #FF8C00;
 }
 
 hr {
@@ -82,7 +86,7 @@ hr {
 .wrapper {
 }
 .main {
-    color: #26fc42;
+    color: #FF8C00;
 }
 .menu {
   display: flex;
@@ -361,6 +365,12 @@ hr {
 .cards-h4 {
   height: 275px;
 }
+.cards-h5 {
+  height: 545px;
+}
+.cards-h6 {
+  height: 355px;
+}
 .cards-section .item-inner {
   padding: 30px 30px;
   background: #e6e8eb;
@@ -395,6 +405,9 @@ hr {
 }
 .cards-section .item-panel .icon {
   color: #5c87b8;
+}
+.div_iframe {
+  margin: 0 0 0 -13px;
 }
 
 /* Нумерованный список */
@@ -475,4 +488,3 @@ hr {
         transform: scale3d(1, 1, 1);
     }
 }
-
