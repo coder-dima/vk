@@ -3,6 +3,9 @@ function setTheme(themeName) {
 	document.documentElement.className = themeName;
 }
 
+if(localStorage.getItem('theme') == null) {
+	setTheme('tema2');
+}
 if(localStorage.getItem('theme') == 'tema1') {
 	setTheme('tema1');
 } else {

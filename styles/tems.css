@@ -1,0 +1,38 @@
+/*
+background - фон страницы
+color - цвет шрифта
+color_ikonka - фон иконки
+color_niz - фон низа сайта
+hr_width - высота полосы <hr>
+widget_list_f_t - жирность шрифта содержания
+background_panels - основной цвет сайта, фон панелей
+border_ramka_t - толщина рамки
+background_terms
+background_donate
+*/
+
+.tema1 {
+  --background: #F5F7F9;
+  --color: #000000;
+  --color_ikonka: #3e4042;
+  --color_niz: #8e9194;
+  --hr_width: 0px;
+  --widget_list_f_t: 500;
+  --background_panels: #5c87b8;
+  --border_ramka_t: 2px;
+  --background_terms: #dedede;
+  --background_donate: #8e9194;
+}
+
+.tema2 {
+  --background: #3e4042;
+  --color: #ffffff;
+  --color_ikonka: #F5F7F9;
+  --color_niz: #d5d8db;
+  --hr_width: 1px;
+  --widget_list_f_t: 400;
+  --background_panels: #5c87b8;
+  --border_ramka_t: 3px;
+  --background_terms: #fff;
+  --background_donate: #e6e6e6;
+}
