@@ -1,0 +1,86 @@
+.my_info {
+	background: var(--profile_background);
+	position: absolute;
+	width: 960px;
+}
+
+.my_info .i1 {
+	height: 450px;
+	background: var(--profile_background_i);
+	width: 230px;
+	padding: 15px 15px 6px 15px;
+	border-radius: 5px;
+	float: left;
+	margin: 10px;
+}
+.my_info .i2 {
+	height: 450px;
+	background: var(--profile_background_i);
+	width: 690px;
+	padding: 15px 20px;
+	border-radius: 5px;
+	float: right;
+	margin: 10px;
+}
+
+.my_info .i1 .img {
+	background: var(--profile_background_i);
+    margin-bottom: 10px;
+    height: 200px;
+	width: 200px;
+}
+.my_info .i1 img {
+	height: 200px;
+	width: 200px;
+}
+.my_info .i1 hr {
+	width: 200px;
+}
+.my_info .i1 .button {
+	display: inline-block;
+    background: var(--profile_background_button);
+    padding: 7px 3px 8px 3px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 12.5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.my_info .i1 .button a {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--profile_color_button);
+}
+
+
+.my_info .i2 .name {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 19px;
+	font-weight: 400;
+	text-align: left;
+	border-bottom: 1px solid;
+	padding-bottom: 12px;
+}
+.my_info .i2 .info {
+	padding-top: 10px;
+	line-height: 150%;
+}
+.my_info .i2 .info .c1 {
+	float: left;
+	width: 200px;
+	font-size: 15px;
+	color: var(--profile_color_p);
+}
+.my_info .i2 .info .c2 {
+	font-size: 15px;
+	color: var(--profile_color_button);
+	overflow: hidden;
+}
+.hr {
+	border: 1px solid var(--profile_background_hr);
+    border-bottom-width: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

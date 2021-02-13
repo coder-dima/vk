@@ -1,201 +1,145 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Чат Менеджер</title>
-        <base target="_blank">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/d0e828f213.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="styles/tems.css">
-        <link rel="stylesheet" href="styles/terms.css">
-        <link rel="stylesheet" href="styles/items.css">
-    </head>
+	<head>
+		<title>Чат Менеджер</title>
+		<base target="_blank">
+		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="styles/header.css">
+		<link rel="stylesheet" href="styles/project_content.css">
+		<link rel="stylesheet" href="styles/tems.css">
+	</head>
  
-    <body class="article">
-        <header class="ccc">
-            <div class="hdr">
-                <div class="hdr-logo"></div>
-                <div class="hdr-name">
-                    <a class="name" target="_self" href="index.html">Дима Смирнов</a>
-                </div>
-                <div class="hdr-like">
-                    <a class="favorite" target="_self" float="right" href="#">
-                        <svg width="24" height="22" fill="var(--color_ikonka)" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11.9997 20C-9.1987 8.23285 5.64047 -4.54117 11.9997 3.53633C18.3598 -4.54117 33.1989 8.23285 11.9997 20Z" stroke-width="1.8" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </header>
+	<body>
+		<ul class="menu-main">
+			<li><a href="index.html" target="_self">Главная</a></li>
+			<li><a href="terms.html" target="_self">Оферта</a></li>
+			<li><a href="projects.html" target="_self" class="current">Проекты</a></li>
+			<li><a href="donate.html" target="_self">Пожертвования</a></li>
+			<li><a class="favorite" target="_self" href="">Тема</a></li>
+		</ul>
 
-        <div class="wrapper">
-            <ul class="menu">
-                <li class="list"><a target="_self" href="index.html">Информация</a></li> |
-                <li class="list"><a target="_self" href="terms.html">Пользовательское соглашение</a></li> |
-                <li class="list"><a class="main" target="_self" href="projects.html">Проекты</a></li>
-            </ul>
-            <ul class="menu">
-                <li class="list"><a target="_self" href="autopost.html">Автопост</a></li> |
-                <li class="list"><a class="main" target="_self" href="cm.html">Chat Manager</a></li> |
-                <li class="list"><a target="_self" href="messages.html">Конструктор Рассылок</a></li> |
-                <li class="list"><a target="_self" href="gorilla.html">Автоматизация Bot Gorilla</a></li>
-            </ul>
-        </div>
+		<br><br>
 
-        <div class="content" id="w">
-            <div class="widget">
-                <h3 class="widget-title">Содержание</h3>
-                <ul class="widget-list">
-                    <a target="_self" href="#1">Информация</a>
-                    <a target="_self" href="#2">Команды</a>
-                    <a target="_self" href="#3">Описание защиты</a>
-              </ul>
-            </div>
-        </div>
-        <hr class="ln">
+		<div class="body">
+			<div class="my_info">
+				<div class="i1">
+					<div class="img">
+						<img src="photos/cm.jpg" alt="">
+					</div>
+					<hr>
+					<div class="button">
+						<a href="https://vk.com/first_cm">Чат Менеджер</a>
+					</div>
+					<div class="button">
+						<a href="https://vk.com/chatmanagers">Chat Manager</a>
+					</div>
+					<div class="button">
+						<a href="https://vk.me/join/KfnS6rI8VZkRbgH2sFHWprHTLgfRojQI2W4=">Официальный Чат</a>
+					</div>
+					<div class="button">
+						<a href="https://vk.com/coder_cm">Разработчик</a>
+					</div>
+				</div>
+				<div class="i2">
+					<p class="name">Чат Менеджер</p>
+					<div class="info">
+						<div class="c1">День рождения:</div>
+						<div class="c2">ноябрь 2019 г.</div>
+					</div>
+					<div class="info">
+						<div class="c1">Тип Чат-бота:</div>
+						<div class="c2">Страничный</div>
+					</div>
+					<div class="info">
+						<div class="c1">Основная цель:</div>
+						<div class="c2">Администратирование бесед ВКонтакте, защита их от спама</div>
+					</div>
+					<hr class="hr">
+					<div class="info">
+						<div class="c1">Краткое описание:</div>
+						<div class="c2">Чат Менеджер – мощный инструмент для помощи управления беседами администраторам.<br>Главная цель – защита бесед от спама, рейдов и других подозрительных действий.</div>
+					</div>
+				</div>
+				<div class="i3">
+					<b class="header">1. Старт – приглашение, подключение</b>
+					<ul class="ul">
+						<li>
+							<span><b>1.1.</b> Пригласите в свою беседу страницу Chat Manager.</span>
+						</li>
+						<li>
+							<span><b>1.2.</b> Выдайте ей права администратора в настройках беседы.</span>
+						</li>
+						<li>
+							<span><b>1.3.</b> Введите команду "!on" для включения защиты от имени создателя чата.</span>
+						</li>
+						<li>
+							<span><b>1.4.</b> Введите команду "!channel on" для включения функционала канала от имени создателя чата.</span>
+						</li>
+					</ul>
+				</div>
+				<div class="i3">
+					<b class="header">2. Функциональность</b>
+					<ul>
+						<li>
+							<span><b>2.1.</b> Наши алгоритмы защиты бесед от спама анализируют активность за разные промежутки времени.</span>
+						</li>
+						<li>
+							<span><b>2.2.</b> Анализ активности делится на два этапа: пользовательский и общий. Мы анализируем как и активность конкретных лиц, так и общую активность в чате. Это помогает нам определять подозрительную активность.</span>
+						</li>
+						<li>
+							<span><b>2.3.</b> Алгоритмы включают в себя защиту от массовых приглашений. Участники без прав администратора не смогут добавлять слишком много участников.</span>
+						</li>
+						<li>
+							<span><b>2.4.</b> Алгоритмы стараются анализировать всю имеющуюся информацию – от простого количества сообщений и символов в них до анализа содержного сообщения, включая некоторые вложения.</span>
+						</li>
+					</ul>
+				</div>
+				<div class="i4">
+					<b class="header">3. Использование команд</b>
+					<ul>
+						<li>
+							<span><b>3.1.</b> Данный Чат-бот находится на странице, поэтому в ответ он ничего не присылает. Это техническое ограничение ВКонтакте.</span>
+						</li>
+						<li>
+							<span><b>3.2.</b> Все команды выполняются только от имени создателя чата, даже если создатель – сообщество.</span>
+						</li>
+					</ul>
+					<table>
+	                    <tr>
+		                    <th>Команда</th>
+		                    <th>Описание</th>
+	                    </tr>
+	                    <tr>
+	                    	<td>!on</td>
+	                    	<td>Включает работу Чат Менеджера</td>
+	                    </tr>
+	                    <tr>
+	                    	<td>!off</td>
+	                    	<td>Выключает работу Чат Менеджера<br></td>
+	                    </tr>
+	                    <tr>
+	                    	<td>!channel on</td>
+	                    	<td>Включает работу канала</td>
+	                    </tr>
+	                    <tr>
+	                    	<td>!channel off</td>
+	                    	<td>Выключает работу канала<br></td>
+	                    </tr>
+                	</table>
+                <ul>
+						<li>
+							<span><b>3.3.</b> Channel (ранее и далее "Канал") – обычный многопользовательский чат ВКонтакте (беседа). Однако в таком чате все сообщения удаляются, кроме администраторов.<br>Может быть полезно если Вам нужно создать беседу только для новостей без флуда от участников или же просто остановить временно поток общения.</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="end">
+			<p>&copy; Разработчик из ВКонтакте - Дима Смирнов 2020-2021<br><a href="terms.html">&copy; Пользовательское соглашение</a></p>
+		</div>
 
-        <div id=1>
-            <div class="widget">
-                <ul class="widget-list">
-                    <a target="_self"  href="#1">Информация</a>
-                </ul>
-            </div>
-            <!-- Контент раздела -->
-            <section class="cards-section text-center">
-            <div class="container">
-                <div id="cards-wrapper" class="cards-wrapper">
-                    <div class="item item-panel col-md-4">
-                        <div class="item-inner cards-h3">
-                            <div class="icon-holder">
-                                <i class="icon fab fa-vk"></i>
-                            </div>
-                            <h3 class="title">Разработчик</h3>
-                            <p class="intro">Страница разработчика из ВКонтакте</p>
-                            <a class="link" href="https://vk.com/coder_cm"><span></span></a>
-                        </div>
-                    </div>
-                    <div class="item item-panel col-md-4">
-                        <div class="item-inner cards-h3">
-                            <div class="icon-holder">
-                                <i class="icon fab fa-vk"></i>
-                            </div>
-                            <h3 class="title">Чат Менеджер</h3>
-                            <p class="intro">Новостное сообщество ВКонтакте</p>
-                            <a class="link" href="https://vk.com/first_cm"><span></span></a>
-                        </div>
-                    </div>
-                    <div class="item item-panel col-md-4">
-                        <div class="item-inner cards-h3">
-                            <div class="icon-holder">
-                                <i class="fab fa-vk items-panel-color cards_color"></i>
-                            </div>
-                            <h3 class="title cards_color">Chat Manager</h3>
-                            <p class="intro">Страничный Чат Менеджер</p>
-                            <a class="link" href="https://vk.com/chatmanagers"><span></span></a>
-                        </div>
-                    </div>
-                    <div class="item item-panel col-md-4">
-                        <div class="item-inner cards-h3">
-                            <div class="icon-holder">
-                                <i class="icon fab fa-vk"></i>
-                            </div>
-                            <h3 class="title">Официальный чат</h3>
-                            <p class="intro">Официальная беседа Чат Менеджера</p>
-                            <a class="link" href="https://vk.me/join/AJQ1dwNZRxgp_dLqsjxVmRFu"><span></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-
-            <div class="terms">
-                <b class="header">1. Подключение</b>
-                <ul class="ul">
-                    <li>
-                        <span><b>1.1.</b> Пригласите в свою беседу страницу Chat Manager.</span>
-                    </li>
-                    <li>
-                        <span><b>1.2.</b> Выдайте её права администратора в настройках беседы.</span>
-                    </li>
-                    <li>
-                        <span><b>1.3.</b> Введите команду "!on" для включения защиты от имени создателя чата.</span>
-                    </li>
-                    <li>
-                        <span><b>1.4.</b> Введите команду "!channel on" для включения Канала от имени создателя чата.</span>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-        <hr class="ln">
-        <div id=2>
-            <div class="widget">
-                <ul class="widget-list">
-                    <a target="_self"  href="#2">Команды</a>
-                </ul>
-            </div>
-            <!-- Контент раздела -->
-            <div class="ramka ser spcal">
-                <p><b>Всё о командах Менеджера:</b><p>Бот НЕ отвечает сообщениями!<p>Обработка команд происходит ТОЛЬКО на создателя чата.<br>Если создатель чата - сообщество, то писать нужно именно от его имени.</p>
-                <hr class="ln lin2">
-                <br>
-                <p><b>Команды:</b></p>
-                <table class="tbsa">
-                    <tr>
-                    <th>Команда</th><th>Описание</th>
-                    </tr>
-                    <tr><td>!on</td><td>Включает работу Чат Менеджера</td></tr>
-                    <tr><td>!off</td><td>Выключает работу Чат Менеджера<br></td></tr>
-                    <tr><td>!channel on</td><td>Включает работу канала</td></tr>
-                    <tr><td>!channel off</td><td>Выключает работу канала<br></td></tr>
-                </table>
-                <br>
-                <hr class="ln lin2">
-                <p>Канал - это обычная беседа. Однако при включенном режеме все сообщения от простых участников удаляются. Это полезно, например, для новостных чатов, в которых сообщения не уместны. Также мы рекомендуем включать этот режим если в чате идёт спам или хуже того - рейд.</p>
-            </div>
-        </div>
-        <hr class="ln">
-        <div id=3>
-            <div class="widget">
-                <ul class="widget-list">
-                    <a target="_self"  href="#3">Описание защиты</a>
-                </ul>
-            </div>
-            <!-- Контент раздела -->
-            <div class="ramka ser spcal">
-                <p><b>Всё о лимитах:</b></p>
-                <br>
-                <table class="tbsa">
-                    <tr>
-                    <th>Лимит</th><th>Описание</th>
-                    </tr>
-                    <tr><td>Приглашения</td><td>Лимит на:<br>- приглашения текущем пользователем<br>- приглашения текущего пользователя<br>- общее количество приглашений<br>Анализируется активность за разные промежутки времени. Если приглашать долго, но с задержками, то рано или поздно лимит сработает.</td></tr>
-                    <tr><td>Сообщения</td><td>Лимита на:<br>- общее количество сообщений/смайлов/прочих вложений<br>- количество сообщений/смайлов/прочих вложений от текущего пользвоателя<br>Анализируется активность за разные промежутки времени. Если спамить долго, но с задержками, то рано или поздно лимит сработает.</td></tr>
-                </table>
-                <br>
-            </div>
-        </div>
-        <br>
-
-        <div class="wrapk" align="center">
-            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
-            <script type="text/javascript">
-                VK.init({apiId: 7468961, onlyWidgets: true});
-            </script>
-            <div id="vk_poll"></div>
-            <script type="text/javascript">
-                VK.Widgets.Poll("vk_poll", {width: "700"}, "415481899_4cd1e9b41748098bde");
-            </script>
-        </div>
-        <br>
-        <div class="niz">
-            <div></div>
-            <p>&copy; Великий разработчик - Дима Смирнов 2020-2021<p><a href="terms.html">&copy; Пользовательское соглашение</a></p>
-            <div></div>
-        </div>
-        <script src="script.js"></script>
-    </body>
+		<script src="terms.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>

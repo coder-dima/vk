@@ -1,47 +1,87 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Информация</title>
-        <base target="_blank">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="styles/tems.css">
-    </head>
- 
-    <body class="article">
-        <header class="ccc">
-            <div class="hdr">
-                <div class="hdr-logo"></div>
-                <div class="hdr-name">
-                    <a class="name" target="_self" href="index.html">Дима Смирнов</a>
-                </div>
-                <div class="hdr-like">
-                    <a class="favorite" target="_self" float="right" href="#">
-                        <svg width="24" height="22" fill="var(--color_ikonka)" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11.9997 20C-9.1987 8.23285 5.64047 -4.54117 11.9997 3.53633C18.3598 -4.54117 33.1989 8.23285 11.9997 20Z" stroke-width="1.8" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </header>
+	<head>
+		<title>Информация</title>
+		<base target="_blank">
+		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="styles/header.css">
+		<link rel="stylesheet" href="styles/profile.css">
+		<link rel="stylesheet" href="styles/tems.css">
+	</head>
 
-        <div class="wrapper">
-            <ul class="menu">
-                <li class="list"><a class="main" target="_self" href="index.html">Информация</a></li> |
-                <li class="list"><a target="_self" href="terms.html">Пользовательское соглашение</a></li> |
-                <li class="list"><a target="_self" href="projects.html">Проекты</a></li>
-            </ul>
-        </div>
-        <br>
-        <div class="ramka ser spcal">
-            <p><b>Вся информация о Диме:</b><p>Возвраст: 25 лет (22.08.1995)<hr class="ln lin2"><p>Разработкой ботов увлекаюсь уже более двух лет, а заинтересовался этой сферой в 2017 году<br>Использую самый популярный модуль VK-IO<br>Язык программирования: JavaScript<br>Изучаю HTML, CSS, React (нет)<hr class="ln lin2"><p>Моя страница ВКонтакте: <a href="https://vk.com/coder_cm">vk.com/coder_cm</a><hr class="ln lin2"><p>На странице сайта "Проекты" Вы можете увидеть дополнительное меню и перейти к странице с описанием проекта и его функционала<hr class="ln lin2"><p>Каждый пользователь автоматически соглашается с польззовательским соглашением находящимся по адресу в сети Интернет: <a target="_self" href="terms.html">https://coder-dima.github.io/vk/terms</a><br>Настоящие Правила могут быть изменены и/или дополнены Администрацией Сайта в одностороннем порядке без какого-либо специального уведомления. Настоящие Правила являются открытым и общедоступным документом.</p>
-        </div>
-        <br>
-        <div class="niz">
-            <div></div>
-            <p>&copy; Разработчик из ВКонтакте - Дима Смирнов 2020-2021<p><a href="terms.html">&copy; Пользовательское соглашение</a></p>
-            <div></div>
-        </div>
-        <script src="script.js"></script>
-    </body>
+	<body>
+		<ul class="menu-main">
+			<li><a href="index.html" target="_self" class="current">Главная</a></li>
+			<li><a href="terms.html" target="_self">Оферта</a></li>
+			<li><a href="projects.html" target="_self">Проекты</a></li>
+			<li><a href="donate.html" target="_self">Пожертвования</a></li>
+			<li><a class="favorite" target="_self" href="">Тема</a></li>
+		</ul>
+
+		<br><br>
+
+		<div class="body">
+			<div class="my_info">
+				<div class="i1">
+					<div class="img">
+						<img src="photos/my_avatar.jpg" alt="">
+					</div>
+					<hr>
+					<div class="button">
+						<a href="https://vk.com/coder_cm">Перейти</a>
+					</div>
+					<div class="button">
+						<a href="https://vk.me/write631579707">Написать</a>
+					</div>
+					<div class="button">
+						<a href="https://vk.me/join/AJQ1d/qDghrpm2h0Nm9_W6Pp">ИнфоКанал</a>
+					</div>
+				</div>
+				<div class="i2">
+					<p class="name">Дима Смирнов</p>
+					<div class="info">
+						<div class="c1">День рождения:</div>
+						<div class="c2">22 августа 1995 г.</div>
+					</div>
+					<div class="info">
+						<div class="c1">Языки:</div>
+						<div class="c2">Русский</div>
+					</div>
+					<div class="info">
+						<div class="c1">Образование:</div>
+						<div class="c2">Высшее техническое</div>
+					</div>
+					<div class="info">
+						<div class="c1">Деятельность:</div>
+						<div class="c2">Разработчик JavaScript, HTML-верстальщик, Тестировщик</div>
+					</div>
+					<div class="info">
+						<div class="c1">Карьера ВКонтакте:</div>
+						<div class="c2">Участник VK Testers, IT Эксперт ВКонтакте, JavaScript Разработчик</div>
+					</div>
+					<hr class="hr">
+					<div class="info">
+						<div class="c1">Языки программирования:</div>
+						<div class="c2">JavaScript</div>
+					</div>
+					<div class="info">
+						<div class="c1">Основа Чат-Ботов:</div>
+						<div class="c2">VK-IO</div>
+					</div>
+					<hr class="hr">
+					<div class="info">
+						<div class="c1">Начало деятельность ВКонтакте:</div>
+						<div class="c2">2017 г.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+		<div class="end">
+			<p>&copy; Разработчик из ВКонтакте - Дима Смирнов 2020-2021<br><a href="terms.html">&copy; Пользовательское соглашение</a></p>
+		</div>
+
+		<script src="terms.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>

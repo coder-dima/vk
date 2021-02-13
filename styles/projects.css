@@ -1,0 +1,65 @@
+.my_info {
+	background: var(--profile_background);
+	position: absolute;
+	width: 960px;
+}
+
+.my_info .i {
+	height: 500px;
+	background: var(--profile_background_i);
+	width: 220px;
+	padding: 15px 15px 6px 15px;
+	border-radius: 5px;
+	float: left;
+	margin: 10px;
+}
+.content {
+	height: 370px;
+}
+
+.my_info .i .button {
+	display: inline-block;
+    background: var(--profile_background_button);
+    padding: 7px 3px 8px 3px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 12.5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.my_info .i .button a {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--profile_color_button);
+}
+
+.name {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 19px;
+	font-weight: 400;
+	text-align: left;
+	padding-bottom: 12px;
+	height: 60px;
+}
+.status {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	padding-bottom: 12px;
+	color: var(--profile_color_p);
+}
+
+hr {
+	border: 1px solid var(--profile_background_hr);
+    border-bottom-width: 0px;
+    margin-bottom: 10px;
+    width: 190px;
+}
+
+.svg {
+	text-align: center;
+	margin-bottom: 10px;
+}

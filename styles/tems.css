@@ -1,0 +1,67 @@
+/*
+color - цвет шрифта
+hr_width - высота полосы <hr>
+widget_list_f_t - жирность шрифта содержания
+border_ramka_t - толщина рамки
+background_terms
+*/
+
+.tema1 {
+	/* Общие стили страницы*/
+	--background: #edeef0;
+
+	/* Заголовок */
+	--header_background: #fff;
+	--header_color: #636363;
+
+	/* Профиль */
+	--profile_background: #d4d6d9;
+	--profile_background_i: #fff;
+	--profile_background_button: #e5ebf1;
+	--profile_color_button: #2a5885;
+	--profile_color_p: #828282;
+	--profile_background_hr: #000;
+
+	/* Пожертвования */
+	--donate_background: #d4d6d9;
+	--donate_color: #000;
+
+	/* Контент проектов */
+	--project_color_p: #000;
+
+  --color: #000000;
+  --hr_width: 0px;
+  --widget_list_f_t: 500;
+  --border_ramka_t: 2px;
+  --background_terms: #dedede;
+}
+
+.tema2 {
+	/* Общие стили страницы*/
+	--background: #3e4042;
+	
+	/* Заголовок */
+	--header_background: #000;
+	--header_color: #deddde;
+
+	/* Профиль */
+	--profile_background: #000;
+	--profile_background_i: #3e4042;
+	--profile_background_button: #000;
+	--profile_color_button: #deddde;
+	--profile_color_p: #deddde;
+	--profile_background_hr: #fff;
+
+	/* Пожертвования */
+	--donate_background: #797979;
+	--donate_color: #deddde;
+
+	/* Контент проектов */
+	--project_color_p: #fff;
+
+  --color: #ffffff;
+  --hr_width: 1px;
+  --widget_list_f_t: 400;
+  --border_ramka_t: 3px;
+  --background_terms: #fff;
+}

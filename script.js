@@ -13,7 +13,7 @@ if(localStorage.getItem('theme') == 'tema1') {
 }
 
 function toggleTheme() {
-	if (localStorage.getItem('theme') == 'tema1') {
+	if(localStorage.getItem('theme') == 'tema1') {
 		setTheme('tema2');
 	} else {
 		setTheme('tema1');
