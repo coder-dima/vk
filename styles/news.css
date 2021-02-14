@@ -1,0 +1,84 @@
+.new_s {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.block_news {
+	background: var(--profile_background);
+	width: 230px;
+	height: auto;
+	float: left;
+	margin-bottom: 80px;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+.my_info {
+	background: var(--profile_background);
+	width: 660px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 80px;
+}
+
+.i {
+	background: var(--profile_background_i);
+	border-radius: 5px;
+	width: 640px;
+	margin: 10px;
+}
+
+/* Заголовок поста */
+.post_header {
+	padding: 10px 15px 0;
+}
+.post_header img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	float: left;
+}
+.post_header_info {
+	padding-top: 8px;
+	margin-left: 80px;
+}
+.post_author {
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	color: #2a5885;
+	line-height: 19px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.post_date {
+	padding-top: 3px;
+	color: #939393;
+	font-size: 13px;
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	line-height: 1.154;
+	letter-spacing: -.1px;
+	font-weight: 400;
+}
+
+.post_content {
+}
+.wall_text {
+	padding: 12px 15px 10px;
+}
+.wall_text p {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 13px;
+	text-align: left;
+	font-weight: 400;
+}
+
+.input {
+	background: var(--profile_background_button);
+	padding: 7px 3px 8px 3px;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
