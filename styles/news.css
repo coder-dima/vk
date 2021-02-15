@@ -78,3 +78,15 @@
 	width: 600px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+	.my_info {
+		width: 960px;
+	}
+	.i {
+		width: 940px;
+	}
+	.vk_post {
+		width: 940px;
+	}
+}
