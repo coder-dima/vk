@@ -94,6 +94,7 @@
 	}
 	.post_header_info {
 		padding-top: 0;
+		margin-top: -10px;
 	}
 	.post_author {
 		font-size: 6px;
