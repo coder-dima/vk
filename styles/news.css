@@ -89,4 +89,17 @@
 	.vk_post {
 		width: 940px;
 	}
+	.wall_text p {
+		font-size: 12px;
+	}
+	.post_header_info {
+		padding-top: 0;
+	}
+	.post_author {
+		font-size: 6px;
+	}
+	.post_date {
+		font-size: 5px;
+		padding: 0;
+	}
 }
