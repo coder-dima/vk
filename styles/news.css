@@ -102,5 +102,6 @@
 	.post_date {
 		font-size: 5px;
 		padding: 0;
+		margin-top: -4px;
 	}
 }
