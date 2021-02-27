@@ -52,8 +52,6 @@
 	font-weight: 400;
 }
 
-.post_content {
-}
 .wall_text {
 	padding: 12px 15px 10px;
 }
@@ -62,6 +60,13 @@
 	font-size: 13px;
 	text-align: left;
 	font-weight: 400;
+}
+.wall_text a {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 13px;
+	text-align: left;
+	font-weight: 400;
+	color: #65829e;
 }
 .vk_post {
 	margin-top: 10px;
@@ -74,8 +79,8 @@
 }
 
 .wall_text img:hover {
-	height: 600px;
-	width: 600px;
+	height: 500px;
+	width: 500px;
     margin-top: 10px;
 }
 
