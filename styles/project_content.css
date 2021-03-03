@@ -188,7 +188,7 @@ ul li::marker {
 	line-height: 21px;
 }
 .my_info td:first-child {
-	/* width: 25%; */
+	width: 25%;
 }
 .my_info tr:last-child td {
 	border-bottom: none;
@@ -209,9 +209,9 @@ ul li::marker {
 
 .my_info .r {
 	float: right;
-	margin: 15px 0 0 30px;
+	margin: 15px 0 10px 30px;
 }
 .my_info .l {
 	float: left;
-	margin: 15px 0 0 30px;
+	margin: 15px 0 10px 30px;
 }
