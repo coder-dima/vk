@@ -8,9 +8,9 @@ body {
 	background-color: var(--background);
 }
 .body {
-		margin: 0 auto;
-		width: 960px;
-		margin-top: 30px;
+	margin: 0 auto;
+	width: 960px;
+	margin-top: 30px;
 }
 /* @media screen and (max-width: 1000px) {
 	.article {
@@ -19,58 +19,10 @@ body {
 } */
 
 p, li {
-	font-family: 'Roboto';
-	text-align: center;
-	font-weight: 600;
-	font-size: 16px;
-	color: var(--color);
-	line-height: 24px;
-	letter-spacing: 0.4px;
+	letter-spacing: normal;
 }
 
 a {
 	cursor: help;
 	text-decoration: none;
-	color: var(--color);
-	font-size: 22px;
-	font-family: 'PT Sans', cursive;
-	font-weight: 600;
-}
-a:hover {
-	color: #FF8C00;
-}
-
-hr {
-	margin: 0 auto;
-	display: block;
-}
-
-/* Линия */
-.ln {
-	border: 1px solid;
-	border-color: #5c87b8;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	opacity: 0.7;
-	border-top-width: var(--hr_width);
-	border-bottom-width: 1px;
-	width: 100%;
-}
-.lin2 {
-	width: 96%;
-}
-.lin3 {
-	width: 94%;
-}
-
-/* Выравниваем диву текст на левый край */ 
-.divleft p {
-	text-align: left;
-	color: #000000;
-	font-size: 14px;
-	font-family: 'PT Sans';
-}
-
-.div_iframe {
-	margin: 0 0 0 -13px;
 }

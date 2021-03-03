@@ -88,6 +88,7 @@
 	text-align: left;
 	border-bottom: 1px solid;
 	padding-bottom: 12px;
+	color: var(--project_color_p);
 }
 .my_info .i2 .info {
 	padding-top: 10px;
@@ -118,12 +119,14 @@
 	font-weight: 700;
 	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
 	font-size: 16px;
+	line-height: 19px;
 }
 .my_info ul a {
 	border-bottom: 1px dashed #9eb4c8;
 	color: #2a5885;
 	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
 	font-size: 14px;
+	line-height: 21px;
 }
 .my_info ul {
 	padding-left: 30px;
@@ -138,6 +141,7 @@
 	padding: 4px 0 4px 3px;
 	list-style: disc;
 	text-align: left;
+	line-height: 21px;
 }
 .my_info b {
 	color: var(--project_color_p);
@@ -163,6 +167,7 @@ ul li::marker {
 	border-collapse: separate;
 	border: 2px solid var(--project_color_p);
 	font-size: 16px;
+	line-height: 21px;
 	border-spacing: 0;
 }
 .my_info th {
@@ -181,6 +186,7 @@ ul li::marker {
 	padding: 7px 17px;
 	border-right: 2px solid var(--project_color_p);
 	font-size: 16px;
+	line-height: 21px;
 }
 .my_info td:first-child {
 	width: 25%;
