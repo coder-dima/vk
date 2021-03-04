@@ -66,6 +66,7 @@
 	font-weight: bold;
 	color: var(--block_color);
 	text-align: center;
+	font-size: 19px;
 }
 .blocks__item ul {
 	margin: 0;
@@ -84,4 +85,26 @@
     width: 100%;
     border: none;
     color: #000;
+}
+
+@media screen and (max-width: 960px) {
+	.blocks__item h3 {
+		font-size: 28px;
+	}
+	.blocks__item .blocks__item_img img {
+		height: 62px;
+		width: 62px;
+	}
+	.blocks__item .blocks__item_price {
+		font-size: 42px;
+	}
+	.blocks__item .blocks__item_price span {
+		font-size: 24px;
+	}
+	.blocks__item .blocks__item_status {
+		font-size: 21px;
+	}
+	.blocks__item li {
+		font-size: 21px;
+	}
 }
