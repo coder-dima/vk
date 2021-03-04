@@ -40,6 +40,9 @@
     color: var(--block_color);
     border-bottom: 3px solid rgb(60, 60, 60);
 }
+.mrgn {
+	margin-bottom: 10px;
+}
 .blocks__item .blocks__item_price {
 	font-size: 36px;
 	padding: 25px 0 19px 0;
