@@ -121,18 +121,18 @@
 	font-size: 16px;
 	line-height: 19px;
 }
-.my_info ul a {
+.my_info .ul a {
 	border-bottom: 1px dashed #9eb4c8;
 	color: #2a5885;
 	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
 	font-size: 14px;
 	line-height: 21px;
 }
-.my_info ul {
+.my_info .ul {
 	padding-left: 30px;
 	margin: 5px 0;
 }
-.my_info ul li {
+.my_info .ul li {
 	color: var(--project_color_p);
 	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
 	font-size: 14px;
