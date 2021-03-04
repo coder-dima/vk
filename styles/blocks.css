@@ -43,6 +43,14 @@
 .mrgn {
 	margin-bottom: 10px;
 }
+.blocks__item .blocks__item_img {
+	text-align: center;
+    padding: 21px 0 17px 0;
+}
+.blocks__item .blocks__item_img img {
+	height: 52px;
+	width: 52px;
+}
 .blocks__item .blocks__item_price {
 	font-size: 36px;
 	padding: 25px 0 19px 0;
