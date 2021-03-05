@@ -11,7 +11,7 @@
 	text-align: center;
 	display: block;
 	flex: 0 0 auto;
-	width: 310px;
+	width: 320px;
 	height: 270px;
 	margin: 10px 5px 10px 5px;
 	border-radius: 10px;
@@ -119,7 +119,6 @@ span.ant-dot {
 .ant-carousel-element .topic__header__img img {
 	height: 40px;
 	width: 40px;
-	max-width: 40px;
 	border-radius: 50%;
 }
 .ant-carousel-element .topic__header__content {
@@ -179,4 +178,39 @@ span.ant-dot {
 	color: #fff;
 	font-size: 15px;
 	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+	.ant-carousel-element {
+		height: 300px;
+		width: 360px;
+	}
+	.ant-carousel-element .topic__header .topic__header__content-name {
+		font-size: 17px;
+	}
+	.ant-carousel-element .topic__header .topic__header__content-date {
+		font-size: 15px;
+	}
+	.ant-carousel-element .topic__header__img img {
+		height: 42px;
+		width: 42px;
+	}
+	.ant-carousel-element .topic__content {
+		height: 182px;
+		margin-bottom: 12px;
+	}
+	.ant-carousel-element .topic__footer a {
+		font-size: 17px;
+	}
+	.ant-carousel-element .topic__content {
+		font-size: 16px;
+	}
+	.status {
+		height: 39px;
+		width: 95px;
+		padding: 10px 0 11px 0;
+	}
+	.status div {
+		font-size: 16px;
+	}
 }
