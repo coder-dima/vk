@@ -130,7 +130,7 @@
 }
 .my_info .ul {
 	padding-left: 30px;
-	margin: 5px 0;
+	margin: 10px 0;
 }
 .my_info .ul li {
 	color: var(--project_color_p);
