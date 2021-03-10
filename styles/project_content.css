@@ -1,0 +1,217 @@
+.my_info {
+	background: var(--profile_background);
+	width: 960px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 80px;
+}
+
+.my_info .i1, .my_info .i2, .my_info .i3, .my_info .i4 {
+	background: var(--profile_background_i);
+	border-radius: 5px;
+}
+
+.my_info .i1 {
+	width: 230px;
+	padding: 15px 15px 15px 15px;
+	margin: 10px;
+}
+.my_info .i2 {
+	width: 690px;
+	padding: 15px 20px;
+	margin: 10px;
+}
+.my_info .i3 {
+	width: 460px;
+	padding: 15px 15px 15px 15px;
+	margin: 10px;
+	margin-top: 5px;
+}
+.my_info .i4 {
+	width: 940px;
+	padding: 15px 15px 15px 15px;
+	margin: 10px;
+	margin-top: 5px;
+}
+
+/* Корректируем размеры */
+.my_info .b1 {
+	width: 360px;
+	height: 240px;
+}
+.my_info .b2 {
+	width: 560px;
+	height: 240px;
+}
+.my_info .b3 {
+	height: 880px;
+}
+
+.my_info .i1 .img {
+	background: var(--profile_background_i);
+	margin-bottom: 10px;
+	height: 200px;
+	width: 200px;
+}
+.my_info .i1 img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+.my_info .i1 hr {
+	width: 200px;
+}
+.my_info .button {
+	display: inline-block;
+	background: var(--profile_background_button);
+	padding: 7px 3px 8px 3px;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 12.5px;
+	text-align: center;
+	margin-top: 10px;
+}
+.my_info .button a {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--profile_color_button);
+}
+
+
+.my_info .i2 .name {
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 19px;
+	font-weight: 400;
+	text-align: left;
+	border-bottom: 1px solid;
+	padding-bottom: 12px;
+	color: var(--project_color_p);
+}
+.my_info .i2 .info {
+	padding-top: 10px;
+	line-height: 150%;
+}
+.my_info .i2 .info .c1 {
+	float: left;
+	width: 200px;
+	font-size: 15px;
+	color: var(--profile_color_p);
+}
+.my_info .i2 .info .c2 {
+	font-size: 15px;
+	color: var(--profile_color_button);
+	overflow: hidden;
+}
+.hr {
+	border: 1px solid var(--profile_background_hr);
+	border-bottom-width: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Маркированные списки */
+
+.my_info .header {
+	margin-bottom: 5px;
+	font-weight: 700;
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 16px;
+	line-height: 19px;
+}
+.my_info .ul a {
+	border-bottom: 1px dashed #9eb4c8;
+	color: #2a5885;
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 14px;
+	line-height: 21px;
+}
+.my_info .ul {
+	padding-left: 30px;
+	margin: 10px 0;
+}
+.my_info .ul li {
+	color: var(--project_color_p);
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	font-size: 14px;
+	margin: 0px;
+	font-weight: 500;
+	padding: 4px 0 4px 3px;
+	list-style: disc;
+	text-align: left;
+	line-height: 21px;
+}
+.my_info b {
+	color: var(--project_color_p);
+}
+.span {
+	background: #f2f7f4;
+}
+ul li::marker {
+	font-size: 15px;
+}
+
+/* Таблицы */
+
+.my_info .table {
+	width: 100%;
+	padding: 0 0 0 30px;
+}
+.my_info table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	background: var(--profile_background);
+	width: 100%;
+	border-radius: 10px;
+	border-collapse: separate;
+	border: 2px solid var(--project_color_p);
+	line-height: 21px;
+	border-spacing: 0;
+}
+.my_info th {
+	border-bottom: 2px solid var(--project_color_p);
+	color: var(--project_color_p);
+	padding: 12px 17px;
+}
+.my_info th, .my_info td {
+	border-bottom: 2px solid var(--project_color_p);
+	color: var(--project_color_p);
+}
+.my_info th {
+	padding: 12px 17px;
+}
+.my_info td {
+	padding: 7px 17px;
+	border-right: 2px solid var(--project_color_p);
+	font-size: 16px;
+	line-height: 21px;
+}
+.my_info td:first-child {
+	width: 25%;
+}
+.my_info tr:last-child td {
+	border-bottom: none;
+}
+.my_info td:last-child {
+	border-right: none;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.my_info .articles {
+	border-radius: 5px;
+	border-collapse: separate;
+	border: 3px solid var(--project_color_p);
+	margin: auto;
+	width: 425px;
+}
+
+.my_info .r {
+	float: right;
+	margin: 15px 0 10px 30px;
+}
+.my_info .l {
+	float: left;
+	margin: 15px 0 10px 30px;
+}
