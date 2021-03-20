@@ -4,19 +4,19 @@ function setTheme(themeName) {
 }
 
 if(localStorage.getItem('theme') == null) {
-	setTheme('tema2');
+	setTheme('dark');
 }
-if(localStorage.getItem('theme') == 'tema1') {
-	setTheme('tema1');
+if(localStorage.getItem('theme') == 'light') {
+	setTheme('light');
 } else {
-	setTheme('tema2');
+	setTheme('dark');
 }
 
 function toggleTheme() {
-	if(localStorage.getItem('theme') == 'tema1') {
-		setTheme('tema2');
+	if(localStorage.getItem('theme') == 'light') {
+		setTheme('dark');
 	} else {
-		setTheme('tema1');
+		setTheme('light');
 	}
 }
 

@@ -1,4 +1,4 @@
-.tema1 {
+.light {
 	/* Общие стили страницы*/
 	--background: #edeef0;
 	/* Заголовок */
@@ -22,11 +22,12 @@
 	--block_color: #000;
 	--block_color-price: #E06060;
 	--block_background_button: #E06060;
-	/* Оферта */
+	/* Правовая информация */
+	--legal_border: #848484;
 	--background_terms: #dedede;
 }
 
-.tema2 {
+.dark {
 	/* Общие стили страницы*/
 	--background: #3e4042;
 	/* Заголовок */
@@ -50,6 +51,7 @@
 	--block_color: #fff;
 	--block_color-price: #E06060;
 	--block_background_button: #BD3C3C;
-	/* Оферта */
+	/* Правовая информация */
+	--legal_border: #e7e8ec;
 	--background_terms: #fff;
 }

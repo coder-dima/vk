@@ -1,0 +1,62 @@
+.body {
+	width: 795px;
+}
+.page {
+	width: auto;
+	height: auto;
+	background: var(--background_terms);
+}
+.page__information {
+	padding: 38px 0 65px;
+	margin: 0 105px;
+	position: relative;
+	font-size: 14px;
+	line-height: 20px;
+
+	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+	color: #000;
+}
+.page__information__title {
+	padding: 0 0 8px;
+	margin: 0;
+	text-align: center;
+	font-size: 23px;
+	line-height: 28px;
+	font-weight: 700;
+}
+.page__information__desc {
+	text-align: center;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 400;
+	padding: 0px 17px;
+}
+.page__information__content {
+	padding-top: 44px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.page__information__content_link {
+	padding: 26px 0 26px 0;
+	border-bottom: 1px solid var(--legal_border);
+}
+.page__information__content_link:first-child {
+	padding-top: 0px;
+}
+.page__information__content_link:last-child {
+	border: 0;
+	padding-bottom: 0px;
+}
+.page__information__content_link a {
+	border: 0;
+	padding-bottom: 4px;
+	line-height: 18px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #2a5885;
+}
+.page__information__content_link div {
+	margin-top: 4px;
+	font-size: 14px;
+	line-height: 20px;
+}
