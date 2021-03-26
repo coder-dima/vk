@@ -14,7 +14,7 @@
 	margin-bottom: 5px;
 	font-weight: 700;
 	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .terms a {
@@ -48,4 +48,10 @@
 
 ul li::marker {
 	font-size: 15px;
+}
+ul .info span {
+	font-size: 9px;
+}
+ul .info li::marker {
+	font-size: 10px;
 }
