@@ -22,6 +22,14 @@ function stage() {
    if(window.location.href.indexOf(`?`) > -1) {
       document.querySelector('.stage0').style.display = "none";
       document.querySelector('.stage1').style.display = "none";
+
+      let href = window.location.href;
+      let href_q = href.indexOf(`?uid`);
+      let href_q_exit = href.indexOf(`&`);
+      let id = href.slice(href_q,href_q_exit);
+      document.querySelector('.stage2').innerHTML = `
+      <div>Страница ${id}</div>`
+
       document.querySelector('.stage2').style.display = "block";
    }
 }
