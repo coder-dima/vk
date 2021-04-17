@@ -11,15 +11,37 @@
 
 	<body>
       <div class="login">
-         <div class="login_block">
-            <script type="text/javascript">
-               VK.init({apiId: 7827192});
-            </script>
-            <div id="vk_auth"></div>
-            <script type="text/javascript">
-               VK.Widgets.Auth("vk_auth", {"width":480,"authUrl":"my_login"});
-            </script>
+         <div class="auth">
+            <div class="login_block0 stage0">
+               <div class="form">
+                  <h3>Впервые на сайте?</h3>
+                  <div>Пройдите временную регистрацию</div>
+                  <form name="JoinStart" id="JoinStart" onsubmit="submitJoinStart();return false">
+                     <input type="text" name="ij_first_name" value="" placeholder="Ваше имя">
+                     <input type="text"name="ij_last_name" value="" placeholder="Ваше фамилия">
+                     <input type="number" name="ij_id" value="" placeholder="Ваш ID ВКонтакте">
+                     <input type="password" name="ij_password" value="" placeholder="Пароль, который Вам дал чат-бот">
+                  </form>
+                  <button id="ij_submit" form="JoinStart">Продолжить регистрацию</button>
+                  <div>Этап авторизации необходимо проходить не реже, чем раз в неделю. Это необходимо для предоставления доступа к некоторым разделам сайта.</div>
+               </div>
+            </div>
+            <div class="login_block1 stage1">
+               <script type="text/javascript">
+                  VK.init({apiId: 7827192});
+               </script>
+               <div id="vk_auth"></div>
+               <script type="text/javascript">
+                  VK.Widgets.Auth("vk_auth", {"width":400,"authUrl":"login"});
+               </script>
+            </div>
+            <div class="login_block2 stage2">
+               <div>Идёт обработка ...</div>
+            </div>
          </div>
       </div>
+
+      <script src="js/script.js"></script>
+      <script src="js/login.js"></script>
 	</body>
 </html>

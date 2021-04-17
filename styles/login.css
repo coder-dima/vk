@@ -1,0 +1,76 @@
+body {
+   background: #edeef0;
+}
+
+.login {
+   position: relative;
+   background: #000;
+}
+.auth {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   margin: -211px 0 0 -210px;
+   width: 420px;
+}
+
+.login_block0 {
+   background: #fff;
+   padding: 25px;
+}
+
+.form {
+   font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+}
+.form h3 {
+   font-size: 19px;
+   text-align: center;
+   line-height: 27px;
+   margin-bottom: 1px;
+}
+.form div {
+   font-size: 13px;
+   text-align: center;
+   line-height: 17px;
+   margin-bottom: 13px;
+}
+
+.login_block0 input, .login_block0 button {
+   width: 380px;
+   height: 35px;
+   margin-bottom: 15px;
+   padding: 6px 12px 8px;
+   border-radius: 3px;
+   border: 1px solid #d3d9de;
+   font-size: 14px;
+}
+.login_block0 button {
+   cursor: pointer;
+}
+.login_block0 button:hover {
+   cursor: pointer;
+   background: #bac9d6;
+}
+
+.login_block1 {
+   background: #fff;
+   padding: 10px;
+}
+.login_block2 {
+   display: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}
+input[type="number"]:hover, input[type="number"]:focus {
+   -moz-appearance: number-input;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
