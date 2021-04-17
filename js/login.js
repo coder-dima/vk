@@ -22,15 +22,21 @@ function stage() {
    if(window.location.href.indexOf(`?`) > -1) {
       document.querySelector('.stage0').style.display = "none";
       document.querySelector('.stage1').style.display = "none";
+      document.querySelector('.stage2').style.display = "block";
 
       let href = window.location.href;
-      let href_q = href.indexOf(`?uid`);
+      let href_q = href.indexOf(`?uid=`);
       let href_q_exit = href.indexOf(`&`);
-      let id = href.slice(href_q,href_q_exit);
-      document.querySelector('.stage2').innerHTML = `
-      <div>Страница ${id}</div>`
+      let id = href.slice(href_q+4,href_q_exit-1);
+      href_q = href.indexOf(`&first_name=`);
+      href_q_exit = href.indexOf(`&`);
+      let first_name = href.slice(href_q+11,href_q_exit-1);
+      href_q = href.indexOf(`&last_name=`);
+      href_q_exit = href.indexOf(`&`);
+      let last_name = href.slice(href_q+10,href_q_exit-1);
 
-      document.querySelector('.stage2').style.display = "block";
+      document.querySelector('.stage2').innerHTML += `
+      <div>Страница ${id}</div>`;
    }
 }
 stage();
