@@ -14,6 +14,7 @@ function stage() {
    if(localStorage.getItem('login_stage') == 0) {
       document.querySelector('.stage0').style.display = "block";
       document.querySelector('.stage0-form').style.display = "none";
+      document.querySelector('.stage0-button').style.display = "none";
       document.querySelector('.stage1').style.display = "none";
 
       if(window.location.href.indexOf(`?`) > -1) {
@@ -29,8 +30,9 @@ function stage() {
          let last_name = href.slice(href_q+11,href_q_exit-1);
    
          // document.querySelector('.stage2').innerHTML += `<div>Страница ${id} и ${first_name} ${last_name}</div>`;
-         document.getElementById('stage0-form-id').value = `${id}`;
+         document.getElementById('stage0-form-id').value = id; console.log(id);
          document.querySelector('.stage0-form').style.display = "block";
+         document.querySelector('.stage0-button').style.display = "block";
       }
    }
    if(localStorage.getItem('login_stage') == 1) {
