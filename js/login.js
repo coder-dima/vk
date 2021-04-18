@@ -50,7 +50,12 @@ function submitJoinStart() {
 	let password = form.elements.ij_password.value;
 
    let pass = Math.round(Number(id/2));
-   pass = pass / id[0]};
+   let pass_string = `${pass}`;
+   let pass_block = 0;
+   for(ler i in pass_string) {
+      pass_block += Number(pass_string[i]);
+   }
+   pass_block += Number(new Date().getDate());
    pass = Math.round(pass);
    console.log(pass);
    if(Number(password) !== Number(pass)) {
