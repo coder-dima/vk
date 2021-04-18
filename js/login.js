@@ -35,10 +35,6 @@ function stage() {
          document.querySelector('.stage0-button').style.display = "block";
       }
    }
-   if(localStorage.getItem('login_stage') == 1) {
-      document.querySelector('.stage0').style.display = "none";
-      document.querySelector('.stage1').style.display = "block";
-   }
 
    let auth_height = document.querySelector('.auth');
    auth_height = getComputedStyle(auth_height);
@@ -54,6 +50,7 @@ function submitJoinStart() {
 	let password = form.elements.ij_password.value;
 
    let pass = Math.round(Number(id/2));
+   pass = pass / id[0]};
    pass = Math.round(pass);
    console.log(pass);
    if(Number(password) !== Number(pass)) {
