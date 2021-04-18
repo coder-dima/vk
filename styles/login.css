@@ -10,13 +10,12 @@ body {
    position: fixed;
    top: 50%;
    left: 50%;
-   margin: -211px 0 0 -210px;
    width: 420px;
 }
 
 .login .auth .login_block0 {
    background: #fff;
-   padding: 25px;
+   padding: 25px 25px 12px 25px;
 }
 
 .login .auth .form {
@@ -33,6 +32,16 @@ body {
    text-align: center;
    line-height: 17px;
    margin-bottom: 13px;
+}
+.login .auth .form .p {
+   background: #ffecec;
+   width: 380px;
+   margin-bottom: 15px;
+   padding: 8px 12px 8px 14px;
+   border-radius: 3px;
+   border: 1px solid #d3d9de;
+   font-size: 14px;
+   display: none;
 }
 
 .login .auth .login_block0 input, .login .auth .login_block0 button {
