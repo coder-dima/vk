@@ -21,7 +21,7 @@ function stage() {
          let href = window.location.href;
          let href_q = href.indexOf(`?uid=`);
          let href_q_exit = href.indexOf(`&`);
-         let id = href.slice(href_q+4,href_q_exit-1);
+         let id = href.slice(href_q+5,href_q_exit-1);
          href_q = href.indexOf(`&first_name=`);
          href_q_exit = href.indexOf(`&`);
          let first_name = href.slice(href_q+12,href_q_exit-1);
