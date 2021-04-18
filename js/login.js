@@ -19,9 +19,9 @@ function stage() {
 
       if(window.location.href.indexOf(`?`) > -1) {
          let href = window.location.href;
-         let href_q = href.indexOf(`?uid=`);
+         let href_q = href.indexOf(`uid=`);
          let href_q_exit = href.indexOf(`&`);
-         let id = href.slice(href_q+5,href_q_exit-1);
+         let id = href.slice(href_q+4,href_q_exit-1);
          href_q = href.indexOf(`&first_name=`);
          href_q_exit = href.indexOf(`&`);
          let first_name = href.slice(href_q+12,href_q_exit-1);
@@ -53,12 +53,6 @@ function submitJoinStart() {
 	let id = form.elements.ij_id.value;
 	let password = form.elements.ij_password.value;
 
-   if(id < 0 || id > 1000000000) {
-      document.querySelector('.p').innerHTML = `Ваш ID ВКонтакте введён не верно. Убедитесь в правильности всех данных, иначе доступ к сайту может быть ограничен.`;
-      document.querySelector('.p').style.display = "block";
-      setTimeout(`window.location = "login.html";`, 500);
-      return;
-   }
    let pass = Math.round(Number(id/2));
    pass = Math.round(pass);
    console.log(pass);
