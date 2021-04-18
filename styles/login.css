@@ -35,7 +35,7 @@ body {
 }
 .login .auth .form .p {
    background: #ffecec;
-   width: 380px;
+   width: 370px;
    margin-bottom: 15px;
    padding: 8px 12px 8px 14px;
    border-radius: 3px;
@@ -45,7 +45,7 @@ body {
 }
 
 .login .auth .login_block0 input, .login .auth .login_block0 button {
-   width: 380px;
+   width: 370px;
    height: 35px;
    margin-bottom: 15px;
    padding: 6px 12px 8px;
