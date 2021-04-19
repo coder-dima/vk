@@ -35,6 +35,15 @@ function stage() {
          document.querySelector('.stage0-button').style.display = "block";
       }
    }
+   if(localStorage.getItem('login_stage') == 1) {
+      document.querySelector('.stage0').style.display = "none";
+      document.querySelector('.stage1').style.display = "block";
+   }
+   if(localStorage.getItem('login_stage') == 2) {
+      document.querySelector('.stage0').style.display = "none";
+      document.querySelector('.stage1').style.display = "none";
+      document.querySelector('.stage2').style.display = "block";
+   }
 
    let auth_height = document.querySelector('.auth');
    auth_height = getComputedStyle(auth_height);
@@ -72,9 +81,7 @@ function submitJoinStart() {
       setTimeout(`window.location = "login.html";`, 50000);
       return;
    } else {
-      document.querySelector('.p').innerHTML = `Пароль введён верно.`;
-      document.querySelector('.p').style.display = "block";
-      // document.querySelector('.p').style.display = "none";
+      document.querySelector('.p').style.display = "none";
    }
 
    localStorage.setItem('login_form_id', `${id}`);
@@ -83,4 +90,14 @@ function submitJoinStart() {
    
    localStorage.setItem('login_stage', `1`);
    stage();
+}
+
+function submitJoinStop() {
+   localStorage.setItem('login_stage', `3`);
+   stage();
+}
+
+function submitExit() {
+   localStorage.clear();
+   location.href = location.href;
 }

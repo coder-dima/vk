@@ -18,21 +18,35 @@ body {
    padding: 25px 25px 12px 25px;
 }
 
-.login .auth .form {
+.login .auth .login_block0, .login .auth .login_block1 {
    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
 }
-.login .auth .form h3 {
+.login .auth h3 {
    font-size: 19px;
    text-align: center;
    line-height: 27px;
    margin-bottom: 1px;
 }
-.login .auth .form div {
+.login .auth div {
    font-size: 13px;
    text-align: center;
    line-height: 17px;
    margin-bottom: 13px;
 }
+.login .auth .login_block1 h3 {
+   font-size: 20px;
+   text-align: center;
+   line-height: 29px;
+   margin-bottom: 1px;
+   font-weight: 500;
+}
+.login .auth .login_block1 div {
+   font-size: 14px;
+   text-align: center;
+   line-height: 19px;
+   margin-bottom: 13px;
+}
+
 .login .auth .form .p {
    background: #ffecec;
    width: 370px;
@@ -44,7 +58,7 @@ body {
    display: none;
 }
 
-.login .auth .login_block0 input, .login .auth .login_block0 button {
+.login .auth .login_block0 input, .login .auth .login_block0 button, .login .auth .login_block1 button {
    width: 370px;
    height: 35px;
    margin-bottom: 15px;
@@ -53,22 +67,20 @@ body {
    border: 1px solid #d3d9de;
    font-size: 14px;
 }
-.login .auth .login_block0 button {
+.login .auth .login_block0 button, .login .auth .login_block1 button {
    cursor: pointer;
 }
-.login .auth .login_block0 button:hover {
+.login .auth .login_block0 button:hover, .login .auth .login_block1 button:hover {
    cursor: pointer;
    background: #bac9d6;
 }
 
 .login .auth .login_block1 {
    background: #fff;
-   padding: 10px;
-}
-.login .auth .login_block2 {
-   background: #fff;
    padding: 25px;
-   display: none;
+}
+.login .auth .login_block1 .photo {
+   text-align: center;
 }
 
 input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
