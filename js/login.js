@@ -105,3 +105,8 @@ function submitExit() {
    localStorage.clear();
    location.href = location.href;
 }
+
+let JoinStop = document.getElementById('ij_submit1');
+JoinStop.onclick = submitJoinStop;
+let Exit = document.getElementById('ij_submit2');
+Exir.onclick = submitExit;
