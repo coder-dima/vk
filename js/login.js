@@ -90,7 +90,7 @@ function submitJoinStart() {
    }
    
    localStorage.setItem('login_stage', `1`);
-   stage();
+   location.href = "login.html";
 }
 
 function submitJoinStop() {
