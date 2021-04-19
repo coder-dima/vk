@@ -58,6 +58,13 @@ function submitJoinStart() {
    }
    pass_block = Math.round(pass_block);
    pass_block = Number(`${pass_block}${pass_id}`);
+   if(new Date().getDate() % 2 == 0) {
+      pass_block += new Date().getFullYear();
+      pass_block -= (new Date().getDate()*2);
+   } else {
+      pass_block += (((new Date().getMonth())+1)*500);
+      pass_block -= new Date().getFullYear();
+   }
    console.log(pass_block);
    if(Number(password) !== Number(pass_block)) {
       document.querySelector('.p').innerHTML = `Пароль введён не верно.`;
@@ -65,7 +72,9 @@ function submitJoinStart() {
       setTimeout(`window.location = "login.html";`, 50000);
       return;
    } else {
-      document.querySelector('.p').style.display = "none";
+      document.querySelector('.p').innerHTML = `Пароль введён верно.`;
+      document.querySelector('.p').style.display = "block";
+      // document.querySelector('.p').style.display = "none";
    }
 
    localStorage.setItem('login_form_id', `${id}`);
