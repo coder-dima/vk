@@ -49,6 +49,11 @@ function stage() {
    if(localStorage.getItem('login_stage') == 2) {
       document.querySelector('.stage0').style.display = "none";
       document.querySelector('.stage1').style.display = "none";
+
+      document.getElementById('stage0-form-2-first').value = localStorage.getItem('login_form_first_name');
+      document.getElementById('stage0-form-2-last').value = localStorage.getItem('login_form_last_name');
+      document.getElementById('stage0-form-2-id').value = localStorage.getItem('login_form_id');
+
       document.querySelector('.stage2').style.display = "block";
    }
 
@@ -96,9 +101,6 @@ function submitJoinStart() {
 }
 
 function submitJoinStop() {
-   document.getElementById('stage0-form-2-first').value = localStorage.getItem('login_form_first_name');
-   document.getElementById('stage0-form-2-last').value = localStorage.getItem('login_form_last_name');
-   document.getElementById('stage0-form-2-id').value = localStorage.getItem('login_form_id');
    localStorage.setItem('login_stage', `2`);
    stage();
 }
