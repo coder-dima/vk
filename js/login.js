@@ -96,7 +96,7 @@ function submitJoinStart() {
 function submitJoinStop() {
    document.getElementById('stage0-form-2-first').value = localStorage.getItem('login_first_name');
    document.getElementById('stage0-form-2-last').value = localStorage.getItem('login_last_name');
-   document.getElementById('stage0-form-2-id').value = localStorage.getItem('login_form-id');
+   document.getElementById('stage0-form-2-id').value = localStorage.getItem('login_form_id');
    localStorage.setItem('login_stage', `2`);
    stage();
 }
