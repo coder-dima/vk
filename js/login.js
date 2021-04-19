@@ -29,8 +29,8 @@ function stage() {
          href_q_exit = href.indexOf(`&`);
          let last_name = href.slice(href_q+11,href_q_exit-1);
 
-         localStorage.setItem('login_first_name', `${first_name}`);
-         localStorage.setItem('login_last_name', `${last_name}`);
+         localStorage.setItem('login_form_first_name', `${first_name}`); console.log(first_name,last_name)
+         localStorage.setItem('login_form_last_name', `${last_name}`);
          localStorage.setItem('login_form_id', `${id}`);
    
          // document.querySelector('.stage2').innerHTML += `<div>Страница ${id} и ${first_name} ${last_name}</div>`;
@@ -94,8 +94,8 @@ function submitJoinStart() {
 }
 
 function submitJoinStop() {
-   document.getElementById('stage0-form-2-first').value = localStorage.getItem('login_first_name');
-   document.getElementById('stage0-form-2-last').value = localStorage.getItem('login_last_name');
+   document.getElementById('stage0-form-2-first').value = localStorage.getItem('login_form_first_name');
+   document.getElementById('stage0-form-2-last').value = localStorage.getItem('login_form_last_name');
    document.getElementById('stage0-form-2-id').value = localStorage.getItem('login_form_id');
    localStorage.setItem('login_stage', `2`);
    stage();
