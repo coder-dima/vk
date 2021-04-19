@@ -18,7 +18,7 @@ function stage() {
       document.querySelector('.stage2').style.display = "none";
 
       if(window.location.href.indexOf(`?`) > -1) {
-         let href = window.location.href;
+         let href = decodeURI(window.location.href);
          let href_q = href.indexOf(`uid=`);
          let href_q_exit = href.indexOf(`&`);
          let id = href.slice(href_q+4,href_q_exit-1);
