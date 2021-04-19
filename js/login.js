@@ -83,7 +83,7 @@ function submitJoinStart() {
    if(Number(password) !== Number(pass_block)) {
       document.querySelector('.p').innerHTML = `Пароль введён не верно.`;
       document.querySelector('.p').style.display = "block";
-      setTimeout(`window.location = "login.html";`, 50000);
+      setTimeout(`window.location = "login.html";`, 500);
       return;
    } else {
       document.querySelector('.p').style.display = "none";
