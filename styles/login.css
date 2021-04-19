@@ -12,6 +12,11 @@ body {
    left: 50%;
    width: 420px;
 }
+.login .auth .block {
+   background: #fff;
+   padding: 25px 25px 12px 25px;
+}
+
 
 .login .auth .login_block0 {
    background: #fff;
