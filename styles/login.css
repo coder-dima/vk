@@ -30,34 +30,7 @@ body {
    font-size: 13px;
    line-height: 17px;
 }
-.login .auth .block .form form input, .login .auth .block .form button {
-   width: 370px;
-   margin-bottom: 15px;
-   padding: 6px 12px 8px;
-   border-radius: 3px;
-   border: 1px solid #d3d9de;
-   font-size: 14px;
-}
-.login .auth .block .form form input{}
-.login .auth .block .form button {}
-
-.login .auth .stage0 {
-   padding: 25px 25px 12px 25px;
-}
-.login .auth .stage1 {}
-.login .auth .stage2 {}
-
-.login .auth .login_block1 h3 {
-   font-size: 20px;
-   line-height: 29px;
-   font-weight: 500;
-}
-.login .auth .login_block1 div {
-   font-size: 14px;
-   line-height: 19px;
-}
-
-.login .auth .form .p {
+.login .auth .block .form .p {
    background: #ffecec;
    width: 370px;
    margin-bottom: 15px;
@@ -68,19 +41,35 @@ body {
    display: none;
 }
 
-
-.login .auth .login_block0 button, .login .auth .login_block1 button {
+.login .auth .block .form form input,
+.login .auth .block .form button {
+   width: 370px;
+   margin-bottom: 15px;
+   padding: 6px 12px 8px;
+   border-radius: 3px;
+   border: 1px solid #d3d9de;
+   font-size: 14px;
+}
+.login .auth .block .form form input{}
+.login .auth .block .form button {
    cursor: pointer;
 }
-.login .auth .login_block0 button:hover, .login .auth .login_block1 button:hover {
+.login .auth .block .form button:hover {
    cursor: pointer;
    background: #bac9d6;
 }
 
-
-.login .auth .login_block1 .photo {
+.login .auth .block .form .photo {
    text-align: center;
 }
+
+.login .auth .block div *:last-child {
+   margin-bottom: 0px;
+}
+
+.login .auth .stage1 {}
+.login .auth .stage2 {}
+
 
 input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
    -webkit-appearance: none;
