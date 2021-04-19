@@ -1,4 +1,4 @@
-localStorage.clear();
+// localStorage.clear();
 
 if(localStorage.getItem('login_data') == null) {
    localStorage.setItem('login_data', `${Math.round(new Date().getTime()/1000.0)}`);
@@ -94,16 +94,17 @@ function submitJoinStart() {
 }
 
 function submitJoinStop() {
-   localStorage.setItem('login_stage', `2`);
+   console.log(localStorage.getItem('stage0-form-2-first'));
    document.getElementById('stage0-form-2-first').value = localStorage.getItem('stage0-form-2-first');
    document.getElementById('stage0-form-2-last').value = localStorage.getItem('stage0-form-2-last');
    document.getElementById('stage0-form-2-id').value = localStorage.getItem('stage0-form-2-id');
+   localStorage.setItem('login_stage', `2`);
    stage();
 }
 
 function submitExit() {
    localStorage.clear();
-   location.href = location.href;
+   location.href = "login.html";
 }
 
 let JoinStop = document.getElementById('ij_submit1');
