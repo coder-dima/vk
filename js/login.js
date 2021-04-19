@@ -57,7 +57,7 @@ function submitJoinStart() {
       pass_id += Number(pass_string[i]);
    }
    pass_block = Math.round(pass_block);
-   pass_block = Number(`${pass_block}+${pass_id}`);
+   pass_block = Number(`${pass_block}${pass_id}`);
    console.log(pass_block);
    if(Number(password) !== Number(pass_block)) {
       document.querySelector('.p').innerHTML = `Пароль введён не верно.`;
