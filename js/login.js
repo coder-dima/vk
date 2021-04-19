@@ -109,4 +109,4 @@ function submitExit() {
 let JoinStop = document.getElementById('ij_submit1');
 JoinStop.onclick = submitJoinStop;
 let Exit = document.getElementById('ij_submit2');
-Exir.onclick = submitExit;
+Exit.onclick = submitExit;

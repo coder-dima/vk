@@ -14,42 +14,47 @@ body {
 }
 .login .auth .block {
    background: #fff;
-   padding: 25px 25px 12px 25px;
-}
-
-
-.login .auth .login_block0 {
-   background: #fff;
-   padding: 25px 25px 12px 25px;
-}
-
-.login .auth .login_block0, .login .auth .login_block1 {
    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+   padding: 25px;
 }
-.login .auth h3 {
-   font-size: 19px;
+.login .auth .block .form {}
+.login .auth .block .form h3 {
    text-align: center;
-   line-height: 27px;
    margin-bottom: 1px;
+   font-size: 19px;
+   line-height: 27px;
 }
-.login .auth div {
-   font-size: 13px;
+.login .auth .block .form div {
    text-align: center;
-   line-height: 17px;
    margin-bottom: 13px;
+   font-size: 13px;
+   line-height: 17px;
 }
+.login .auth .block .form form input, .login .auth .block .form button {
+   width: 370px;
+   margin-bottom: 15px;
+   padding: 6px 12px 8px;
+   border-radius: 3px;
+   border: 1px solid #d3d9de;
+   font-size: 14px;
+}
+.login .auth .block .form form input{}
+.login .auth .block .form button {}
+
+.login .auth .stage0 {
+   padding: 25px 25px 12px 25px;
+}
+.login .auth .stage1 {}
+.login .auth .stage2 {}
+
 .login .auth .login_block1 h3 {
    font-size: 20px;
-   text-align: center;
    line-height: 29px;
-   margin-bottom: 1px;
    font-weight: 500;
 }
 .login .auth .login_block1 div {
    font-size: 14px;
-   text-align: center;
    line-height: 19px;
-   margin-bottom: 13px;
 }
 
 .login .auth .form .p {
@@ -63,15 +68,7 @@ body {
    display: none;
 }
 
-.login .auth .login_block0 input, .login .auth .login_block0 button, .login .auth .login_block1 button {
-   width: 370px;
-   height: 35px;
-   margin-bottom: 15px;
-   padding: 6px 12px 8px;
-   border-radius: 3px;
-   border: 1px solid #d3d9de;
-   font-size: 14px;
-}
+
 .login .auth .login_block0 button, .login .auth .login_block1 button {
    cursor: pointer;
 }
@@ -80,10 +77,7 @@ body {
    background: #bac9d6;
 }
 
-.login .auth .login_block1 {
-   background: #fff;
-   padding: 25px;
-}
+
 .login .auth .login_block1 .photo {
    text-align: center;
 }
