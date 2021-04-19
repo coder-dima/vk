@@ -27,9 +27,9 @@ function stage() {
          let first_name = href.slice(href_q+12,href_q_exit-1);
          href_q = href.indexOf(`&last_name=`);
          href_q_exit = href.indexOf(`&`);
-         let last_name = href.slice(href_q+11,href_q_exit-1);
+         let last_name = href.slice(href_q+11,href_q_exit-1); console.log(first_name);
 
-         localStorage.setItem('login_form_first_name', `${first_name}`); console.log(first_name,last_name)
+         localStorage.setItem('login_form_first_name', `${first_name}`);
          localStorage.setItem('login_form_last_name', `${last_name}`);
          localStorage.setItem('login_form_id', `${id}`);
    
