@@ -1,4 +1,4 @@
-// localStorage.clear();
+localStorage.clear();
 
 if(localStorage.getItem('login_data') == null) {
    localStorage.setItem('login_data', `${Math.round(new Date().getTime()/1000.0)}`);
