@@ -51,7 +51,7 @@ function submitJoinStart() {
 
    let pass = Math.round(Number(id/2));
    let pass_string = `${pass}`;
-   let pass_block = Number(((new Date().getgetMonth())+1) * new Date().getDate());
+   let pass_block = Number(((new Date().getMonth())+1) * new Date().getDate());
    let pass_id
    for(let i in pass_string) {
       pass_id += Number(pass_string[i]);
