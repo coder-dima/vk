@@ -22,14 +22,14 @@ function stage() {
          href_q = href.indexOf(`uid=`);
          href_q_exit = href.indexOf(`&f`);
          id = href.slice(href_q+4,href_q_exit-2);
-         href = href.slice(href_q_exit,href.length); console.log(href)
+         href = href.slice(href_q_exit,href.length);
          href_q = href.indexOf(`&first_name=`);
          href_q_exit = href.indexOf(`&l`);
          first_name = href.slice(href_q+12,href_q_exit);
-         href = href.slice(href_q_exit,href.length); console.log(href)
+         href = href.slice(href_q_exit,href.length);
          href_q = href.indexOf(`&last_name=`);
          href_q_exit = href.indexOf(`&p`);
-         last_name = href.slice(href_q+11,href_q_exit); console.log(first_name); console.log(last_name)
+         last_name = href.slice(href_q+11,href_q_exit);
 
          localStorage.setItem('login_form_first_name', `${first_name}`);
          localStorage.setItem('login_form_last_name', `${last_name}`);
