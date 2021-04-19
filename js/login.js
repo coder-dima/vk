@@ -94,10 +94,9 @@ function submitJoinStart() {
 }
 
 function submitJoinStop() {
-   console.log(localStorage.getItem('stage0-form-2-first'));
-   document.getElementById('stage0-form-2-first').value = localStorage.getItem('stage0-form-2-first');
-   document.getElementById('stage0-form-2-last').value = localStorage.getItem('stage0-form-2-last');
-   document.getElementById('stage0-form-2-id').value = localStorage.getItem('stage0-form-2-id');
+   document.getElementById('stage0-form-2-first').value = localStorage.getItem('login_first_name');
+   document.getElementById('stage0-form-2-last').value = localStorage.getItem('login_last_name');
+   document.getElementById('stage0-form-2-id').value = localStorage.getItem('login_form-id');
    localStorage.setItem('login_stage', `2`);
    stage();
 }
