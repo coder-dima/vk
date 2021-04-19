@@ -51,14 +51,15 @@ function submitJoinStart() {
 
    let pass = Math.round(Number(id/2));
    let pass_string = `${pass}`;
-   let pass_block = 0;
+   let pass_block = Number(((new Date().getgetMonth())+1) * new Date().getDate());
+   let pass_id
    for(let i in pass_string) {
-      pass_block += Number(pass_string[i]);
+      pass_id += Number(pass_string[i]);
    }
-   pass_block += Number(new Date().getDate());
-   pass = Math.round(pass);
-   console.log(pass);
-   if(Number(password) !== Number(pass)) {
+   pass_block = Math.round(pass_block);
+   pass_block = Number(${pass_block}+${pass_id});
+   console.log(pass_block);
+   if(Number(password) !== Number(pass_block)) {
       document.querySelector('.p').innerHTML = `Пароль введён не верно.`;
       document.querySelector('.p').style.display = "block";
       setTimeout(`window.location = "login.html";`, 50000);
