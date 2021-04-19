@@ -18,18 +18,18 @@ function stage() {
       document.querySelector('.stage2').style.display = "none";
 
       if(window.location.href.indexOf(`?`) > -1) {
-         let href = decodeURI(window.location.href);
-         let href_q = href.indexOf(`uid=`);
-         let href_q_exit = href.indexOf(`&`);
-         let id = href.slice(href_q+4,href_q_exit-1);
+         href = decodeURI(window.location.href);
+         href_q = href.indexOf(`uid=`);
+         href_q_exit = href.indexOf(`&`);
+         id = href.slice(href_q+4,href_q_exit-1);
          href = href.slice(href_q_exit,href.length);
          href_q = href.indexOf(`&first_name=`);
          href_q_exit = href.indexOf(`&`);
-         let first_name = href.slice(href_q+12,href_q_exit-11);
+         first_name = href.slice(href_q+12,href_q_exit-11);
          href = href.slice(href_q_exit,href.length);
          href_q = href.indexOf(`&last_name=`);
          href_q_exit = href.indexOf(`&`);
-         let last_name = href.slice(href_q+11,href_q_exit-6); console.log(first_name);
+         last_name = href.slice(href_q+11,href_q_exit-6); console.log(first_name);
 
          localStorage.setItem('login_form_first_name', `${first_name}`);
          localStorage.setItem('login_form_last_name', `${last_name}`);
