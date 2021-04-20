@@ -40,7 +40,13 @@ body {
    font-size: 14px;
    display: none;
 }
-
+.login .auth .block .form .ava {
+   height: 64px;
+   width: 64px;
+   border: 0;
+   border-radius: 50%;
+   text-align: center;
+}
 .login .auth .block .form form input,
 .login .auth .block .form button {
    width: 370px;

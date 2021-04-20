@@ -5,12 +5,14 @@ if(localStorage.getItem('login_data') == null) {
    localStorage.setItem('login_stage', `0`);
    localStorage.setItem('login_form_first_name', ``);
    localStorage.setItem('login_form_last_name', ``);
+   localStorage.setItem('login_form_photo', ``);
    localStorage.setItem('login_form_id', ``);
    localStorage.setItem('login_form_password', ``);
 }
 
 function stage() {
    if(localStorage.getItem('login_stage') == 0) {
+      document.title = "Регистрация";
       document.querySelector('.stage0').style.display = "block";
       document.querySelector('.stage0-form').style.display = "none";
       document.querySelector('.stage0-button').style.display = "none";
@@ -22,31 +24,42 @@ function stage() {
          href_q = href.indexOf(`uid=`);
          href_q_exit = href.indexOf(`&f`);
          id = href.slice(href_q+4,href_q_exit-2);
+
          href = href.slice(href_q_exit,href.length);
          href_q = href.indexOf(`&first_name=`);
          href_q_exit = href.indexOf(`&l`);
          first_name = href.slice(href_q+12,href_q_exit);
+
          href = href.slice(href_q_exit,href.length);
          href_q = href.indexOf(`&last_name=`);
          href_q_exit = href.indexOf(`&p`);
          last_name = href.slice(href_q+11,href_q_exit);
 
+         href = href.slice(href_q_exit,href.length);
+         href_q = href.indexOf(`&photo=`);
+         href_q_exit = href.indexOf(`&photo_rec`);
+         photo = href.slice(href_q+7,href_q_exit);
+
          localStorage.setItem('login_form_first_name', `${first_name}`);
          localStorage.setItem('login_form_last_name', `${last_name}`);
+         localStorage.setItem('login_form_photo', `${photo}`);
          localStorage.setItem('login_form_id', `${id}`);
    
          // document.querySelector('.stage2').innerHTML += `<div>Страница ${id} и ${first_name} ${last_name}</div>`;
          document.getElementById('stage0-form-id').value = id;
+         document.getElementById('stage0-form-photo').src = photo;
          document.querySelector('.stage0-form').style.display = "block";
          document.querySelector('.stage0-button').style.display = "block";
       }
    }
    if(localStorage.getItem('login_stage') == 1) {
+      document.title = "Завершение регистрации";
       document.querySelector('.stage0').style.display = "none";
       document.querySelector('.stage1').style.display = "block";
       document.querySelector('.stage2').style.display = "none";
    }
    if(localStorage.getItem('login_stage') == 2) {
+      document.title = "Профиль";
       document.querySelector('.stage0').style.display = "none";
       document.querySelector('.stage1').style.display = "none";
 
@@ -90,7 +103,7 @@ function submitJoinStart() {
    if(Number(password) !== Number(pass_block)) {
       document.querySelector('.p').innerHTML = `Пароль введён не верно.`;
       document.querySelector('.p').style.display = "block";
-      setTimeout(`window.location = "login.html";`, 5000);
+      setTimeout(`window.location = "login.html";`, 500);
       return;
    } else {
       document.querySelector('.p').style.display = "none";
