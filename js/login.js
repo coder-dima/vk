@@ -5,7 +5,6 @@ if(localStorage.getItem('login_data') == null) {
    localStorage.setItem('login_stage', `0`);
    localStorage.setItem('login_form_first_name', ``);
    localStorage.setItem('login_form_last_name', ``);
-   localStorage.setItem('login_form_photo', ``);
    localStorage.setItem('login_form_id', ``);
    localStorage.setItem('login_form_password', ``);
 }
@@ -35,17 +34,11 @@ function stage() {
          href_q_exit = href.indexOf(`&p`);
          last_name = href.slice(href_q+11,href_q_exit);
 
-         href = href.slice(href_q_exit,href.length);
-         href_q = href.indexOf(`&photo_rec=`);
-         photo = href.slice(href_q+11,href.length);
-
          localStorage.setItem('login_form_first_name', `${first_name}`);
          localStorage.setItem('login_form_last_name', `${last_name}`);
-         localStorage.setItem('login_form_photo', `${photo}`);
          localStorage.setItem('login_form_id', `${id}`);
    
          // document.querySelector('.stage2').innerHTML += `<div>Страница ${id} и ${first_name} ${last_name}</div>`;
-         document.querySelector('.ava').innerHTML += `<img src="${photo}"></img>`;
          document.getElementById('stage0-form-id').value = id;
          document.querySelector('.stage0-form').style.display = "block";
          document.querySelector('.stage0-button').style.display = "block";
